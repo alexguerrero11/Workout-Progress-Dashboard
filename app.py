@@ -16,11 +16,35 @@ with dataset:
     st.header('My personal workout data.')
     st.text('I record my workouts daily and store them in a google sheet file.')
     
-    name = 'Workout Progress Data - Main2.0.csv'
-    workout_data_file = pd.read_csv(name)
+    # import file
+    name = 'Workout Progress Data - master.csv'
+    workout_data = pd.read_csv(name)
     
-    st.dataframe(workout_data_file)
+    # data cleaning
+    #workout_data = workout_data.set_index(workout_data["Date"])
+    workout_data = workout_data.sort_values(by=['Date','Exercise','Sets'])
     
+    
+    #  -- SIDEBAR -- 
+    st.sidebar.header("Please Filter Here:")
+    
+    date = st.sidebar.multiselect(
+        "Select a date:",
+        options= workout_data["Date"].unique(),
+        default= workout_data["Date"].unique()
+    )
+    
+    muscle_type = st.sidebar.multiselect(
+        "Select a muscle type:",
+        options= workout_data["Muscle_group"].unique(),
+        default= workout_data["Muscle_group"].unique()
+    )
+    
+    filter_selections = workout_data.query(
+        "Date == @date & Muscle_group == @muscle_type"
+    )
+    
+    st.dataframe(filter_selections)
 
 with features:
     st.header('The features I created')
