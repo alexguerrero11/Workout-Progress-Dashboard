@@ -45,6 +45,10 @@ with dataset:
     )
     
     st.dataframe(filter_selections)
+    
+    chart_data = workout_data[['Date','Weight']]
+    
+st.line_chart(chart_data)
 
 with features:
     st.header('The features I created')
