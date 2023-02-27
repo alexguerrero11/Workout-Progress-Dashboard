@@ -1,0 +1,8 @@
+cd Users/alex/Documents/Projects/Workout_project
+streamlit run app.py
+
+<!-- Commands to run app -->
+
+cd Users/alex/Documents/Projects/Workout_project
+streamlit run app.py
+
