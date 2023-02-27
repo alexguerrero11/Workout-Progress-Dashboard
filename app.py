@@ -68,5 +68,5 @@ filter_selections = workout_data.query(
 )
 
 
-# st.dataframe(filter_selections)
+st.dataframe(filter_selections)
     
