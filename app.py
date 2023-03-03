@@ -71,6 +71,8 @@ filter_selections = workout_data.query(
 
 
 st.markdown('### Latest Record')
+st.text(f"Recent muscle groups worked out: {latest_record['Muscle_group'].unique()}")
+st.dataframe(latest_record[['Muscle_group', 'Exercise']])
 st.dataframe(latest_record)
 
 st.markdown('### All Records')
