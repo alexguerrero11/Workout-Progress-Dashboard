@@ -9,8 +9,8 @@ from dateutil.relativedelta import relativedelta
 workout_data = pd.read_csv("data/main.csv")
 data_columns = ['Date', 'Exercise', 'Muscle_group', 'Sets', 'Reps', 'Weight', 'Duration', 'Note', 'Total_volume']
 workout_data = workout_data[data_columns]
-workout_data = workout_data.sort_values(by=['Date','Exercise','Sets'])
 workout_data['Date'] = pd.to_datetime(workout_data['Date'], format="%m/%d/%Y")
+workout_data = workout_data.sort_values(by=['Date','Exercise','Sets'])
 
 # Date Parameters -- Calculations
 today = date.today()
@@ -30,6 +30,8 @@ next_month_first_day = next_month_first_day.strftime('%m-%d-%Y')
 count_per_week = len(workout_data.query(" Date >= @start_of_week & Date <= @end_of_Week")['Date'].unique())
 count_per_month = len(workout_data.query(" Date >= @first_day_of_month & Date < @next_month_first_day")['Date'].unique())
 count_total_records = len(workout_data['Date'].unique())
+
+latest_record = workout_data[workout_data['Date'] == workout_data['Date'].unique()[-2]]
 
 # --------------------------------------------------
 # header
@@ -68,5 +70,9 @@ filter_selections = workout_data.query(
 )
 
 
+st.markdown('### Latest Record')
+st.dataframe(latest_record)
+
+st.markdown('### All Records')
 st.dataframe(filter_selections)
     
