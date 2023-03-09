@@ -49,7 +49,7 @@ total_volume_per_day = workout_data[["Date","Total_volume"]].groupby(by="Date").
 
 # --------------------------------------------------
 # bodyweight analysis
-BODYWEIGHT_EXERCISES = ["Pull Up", "Chin Up", "Dips", "Squat"]
+BODYWEIGHT_EXERCISES = ["Pull Up", "Chin Up", "Dips", "Push Up", "Squat"]
 columns_name = ["Exercise", "Min", "Max", "Avg"]
 df = []
 
