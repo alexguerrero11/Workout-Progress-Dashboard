@@ -6,7 +6,7 @@ from dateutil.relativedelta import relativedelta
 
 # --------------------------------------------------
 # import data and clean columns
-filename = 'data/main.csv'
+filename = 'data/workout-data - main.csv'
 workout_data = pd.read_csv(filename)
 
 # columns clean up
