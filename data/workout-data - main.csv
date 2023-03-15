@@ -1,4 +1,34 @@
 Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
+5/31/2021,Bodyweight,Weight,,,127.8,,,0
+6/1/2021,Bodyweight,Weight,,,128.3,,,0
+6/7/2021,Bodyweight,Weight,,,130,,,0
+6/9/2021,Bodyweight,Weight,,,128.9,,,0
+7/8/2021,Bodyweight,Weight,,,129,,,0
+7/10/2021,Bodyweight,Weight,,,125.8,,,0
+7/11/2021,Bodyweight,Weight,,,126.7,,,0
+7/12/2021,Bodyweight,Weight,,,126.2,,,0
+7/14/2021,Bodyweight,Weight,,,126.2,,,0
+7/15/2021,Bodyweight,Weight,,,127.3,,,0
+7/17/2021,Bodyweight,Weight,,,127.1,,,0
+7/22/2021,Bodyweight,Weight,,,127.9,,,0
+7/28/2021,Bodyweight,Weight,,,128.3,,,0
+7/29/2021,Bodyweight,Weight,,,127.1,,,0
+8/2/2021,Bodyweight,Weight,,,128.1,,,0
+8/3/2021,Bodyweight,Weight,,,128.3,,,0
+8/6/2021,Bodyweight,Weight,,,130.4,,,0
+8/9/2021,Bodyweight,Weight,,,132.2,,,0
+8/10/2021,Bodyweight,Weight,,,127.5,,,0
+8/12/2021,Bodyweight,Weight,,,128,,,0
+8/13/2021,Bodyweight,Weight,,,128.2,,,0
+8/16/2021,Bodyweight,Weight,,,128.5,,,0
+8/18/2021,Bodyweight,Weight,,,128.3,,,0
+8/23/2021,Bodyweight,Weight,,,129.4,,,0
+8/25/2021,Bodyweight,Weight,,,126.3,,,0
+9/5/2021,Bodyweight,Weight,,,128,,,0
+9/6/2021,Bodyweight,Weight,,,126.5,,,0
+9/29/2021,Bodyweight,Weight,,,130,,,0
+10/25/2021,Bodyweight,Weight,,,129,,,0
+10/26/2021,Bodyweight,Weight,,,128.7,,,0
 4/4/2022,Dumbbell Shoulder Press,Shoulders,1,10,40,,,400
 4/4/2022,Dumbbell Shoulder Press,Shoulders,2,10,40,,,400
 4/4/2022,Dumbbell Shoulder Press,Shoulders,3,10,40,,,400
@@ -813,12 +843,12 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 9/22/2022,Note,Note,,,,,"Went to gym, forgot to record workout.",0
 9/28/2022,Note,Note,,,,,"Went to gym, forgot to record workout.",0
 9/29/2022,Note,Note,,,,,"Went to gym, forgot to record workout.",0
-10/3/2022,Push Up,Chest,1,10,,,Parallette Push-Up,0
-10/3/2022,Push Up,Chest,2,20,,,Parallette Push-Up,0
-10/3/2022,Push Up,Chest,3,20,,,Parallette Push-Up,0
+10/3/2022,Parallette Push-Up,Chest,1,10,,,,0
+10/3/2022,Parallette Push-Up,Chest,2,20,,,,0
+10/3/2022,Parallette Push-Up,Chest,3,20,,,,0
 10/4/2022,Note,Note,,,,,"Went to gym, forgot to record workout.",0
-10/4/2022,Push Up,Chest,1,10,,,Parallette Push-Up,0
-10/4/2022,Push Up,Chest,2,10,,,Parallette Push-Up,0
+10/4/2022,Parallette Push-Up,Chest,1,10,,,,0
+10/4/2022,Parallette Push-Up,Chest,2,10,,,,0
 10/5/2022,Lat Pull-Down,Back,1,10,70,,,700
 10/5/2022,Lat Pull-Down,Back,2,10,85,,,850
 10/5/2022,Lat Pull-Down,Back,3,10,85,,,850
@@ -1105,9 +1135,9 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 11/27/2022,Dumbbell Overhead Triceps Extension,Triceps,1,10,35,,,350
 11/27/2022,Dumbbell Overhead Triceps Extension,Triceps,2,10,35,,,350
 11/27/2022,Dumbbell Overhead Triceps Extension,Triceps,3,10,35,,,350
-11/27/2022,Push Up,Chest,1,10,,,Parallette Push-Up,0
-11/27/2022,Push Up,Chest,2,10,,,Parallette Push-Up,0
-11/27/2022,Push Up,Chest,3,10,,,Parallette Push-Up,0
+11/27/2022,Parallette Push-Up,Chest,1,10,,,,0
+11/27/2022,Parallette Push-Up,Chest,2,10,,,,0
+11/27/2022,Parallette Push-Up,Chest,3,10,,,,0
 11/27/2022,Ab Crunch,Abs,1,20,,,,0
 11/27/2022,Ab Crunch,Abs,2,15,,,,0
 11/27/2022,Flutter Kicks,Abs,1,20,,,,0
@@ -1232,8 +1262,8 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 12/4/2022,Machine Butterfly,Chest,2,13,40,,,520
 12/4/2022,Machine Butterfly,Chest,3,10,60,,,600
 12/4/2022,Machine Butterfly,Chest,4,8,80,,,640
-12/4/2022,Push Up,Chest,1,15,,,Parallette Push-Up,0
-12/4/2022,Push Up,Chest,2,10,,,Parallette Push-Up,0
+12/4/2022,Parallette Push-Up,Chest,1,15,,,,0
+12/4/2022,Parallette Push-Up,Chest,2,10,,,,0
 12/5/2022,Pull Up,Back,1,10,,,,0
 12/5/2022,Pull Up,Back,2,10,,,,0
 12/5/2022,Chin Up,Biceps,1,5,,,,0
@@ -1454,12 +1484,12 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 12/10/2022,Dumbbell Shoulder Press,Shoulders,2,8,40,,,320
 12/10/2022,Dumbbell Shoulder Press,Shoulders,3,8,40,,,320
 12/10/2022,Dumbbell Shoulder Press,Shoulders,4,8,40,,,320
-12/11/2022,Push Up,Chest,1,10,,,Parallette Push-Up,0
-12/11/2022,Push Up,Chest,2,20,,,Parallette Push-Up,0
-12/11/2022,Push Up,Chest,3,10,,,Parallette Push-Up,0
-12/11/2022,Push Up,Chest,4,20,,,Parallette Push-Up,0
-12/11/2022,Push Up,Chest,5,15,,,Parallette Push-Up,0
-12/11/2022,Push Up,Chest,6,10,,,Parallette Push-Up,0
+12/11/2022,Parallette Push-Up,Chest,1,10,,,,0
+12/11/2022,Parallette Push-Up,Chest,2,20,,,,0
+12/11/2022,Parallette Push-Up,Chest,3,10,,,,0
+12/11/2022,Parallette Push-Up,Chest,4,20,,,,0
+12/11/2022,Parallette Push-Up,Chest,5,15,,,,0
+12/11/2022,Parallette Push-Up,Chest,6,10,,,,0
 12/11/2022,Ab Crunch,Abs,1,10,,,,0
 12/11/2022,Ab Crunch,Abs,2,20,,,,0
 12/11/2022,Flutter Kicks,Abs,1,10,,,,0
@@ -1691,9 +1721,9 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 12/22/2022,Ez Barbell Bicep Curl,Biceps,2,10,30,,,300
 12/22/2022,Ez Barbell Bicep Curl,Biceps,3,10,30,,,300
 12/22/2022,Ez Barbell Bicep Curl,Biceps,4,10,30,,,300
-12/25/2022,Push Up,Chest,1,10,,,Parallette Push-Up,0
-12/25/2022,Push Up,Chest,2,15,,,Parallette Push-Up,0
-12/25/2022,Push Up,Chest,3,10,,,Parallette Push-Up,0
+12/25/2022,Parallette Push-Up,Chest,1,10,,,,0
+12/25/2022,Parallette Push-Up,Chest,2,15,,,,0
+12/25/2022,Parallette Push-Up,Chest,3,10,,,,0
 12/25/2022,Sit-Up,Abs,1,20,,,,0
 12/25/2022,Sit-Up,Abs,2,20,,,,0
 12/25/2022,Squat,Quadriceps,1,20,,,,0
@@ -2053,25 +2083,7 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 1/17/2023,Dumbbell Shrug,Back,3,10,35,,,350
 1/17/2023,Dumbbell Shrug,Back,4,10,35,,,350
 1/18/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
-1/23/2023,Lat Raise,Shoulders,1,10,15,,,150
-1/23/2023,Lat Raise,Shoulders,2,10,15,,,150
-1/23/2023,Lat Raise,Shoulders,3,10,15,,,150
-1/23/2023,Front Raise,Shoulders,1,10,15,,,150
-1/23/2023,Front Raise,Shoulders,2,10,15,,,150
-1/23/2023,Front Raise,Shoulders,3,10,15,,,150
-1/23/2023,Dumbbell Shrug,Back,1,10,30,,,300
-1/23/2023,Dumbbell Shrug,Back,2,10,30,,,300
-1/23/2023,Dumbbell Shrug,Back,3,10,30,,,300
-1/23/2023,Dumbbell Shrug,Back,4,10,30,,,300
-1/23/2023,Leg Press,Quadriceps,1,10,50,,,500
-1/23/2023,Leg Press,Quadriceps,2,15,80,,,1200
-1/23/2023,Leg Press,Quadriceps,3,15,90,,,1350
-1/23/2023,Leg Press,Quadriceps,4,10,100,,,1000
-1/23/2023,Leg Extension,Quadriceps,1,10,30,,both legs,300
-1/23/2023,Leg Extension,Quadriceps,2,10,30,,one leg,300
-1/23/2023,Leg Extension,Quadriceps,3,10,30,,one leg,300
-1/23/2023,Leg Extension,Quadriceps,4,10,50,,one leg,500
-1/23/2023,Leg Extension,Quadriceps,5,10,50,,both legs,500
+1/21/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
 1/22/2023,Pull Up,Back,1,5,,,,0
 1/22/2023,Pull Up,Back,2,6,,,,0
 1/22/2023,Chin Up,Biceps,1,5,,,,0
@@ -2104,7 +2116,25 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 1/22/2023,MTS Front Pull-Down,Back,2,10,40,,,400
 1/22/2023,MTS Front Pull-Down,Back,3,10,50,,,500
 1/22/2023,MTS Front Pull-Down,Back,4,8,60,,,480
-1/21/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+1/23/2023,Lat Raise,Shoulders,1,10,15,,,150
+1/23/2023,Lat Raise,Shoulders,2,10,15,,,150
+1/23/2023,Lat Raise,Shoulders,3,10,15,,,150
+1/23/2023,Front Raise,Shoulders,1,10,15,,,150
+1/23/2023,Front Raise,Shoulders,2,10,15,,,150
+1/23/2023,Front Raise,Shoulders,3,10,15,,,150
+1/23/2023,Dumbbell Shrug,Back,1,10,30,,,300
+1/23/2023,Dumbbell Shrug,Back,2,10,30,,,300
+1/23/2023,Dumbbell Shrug,Back,3,10,30,,,300
+1/23/2023,Dumbbell Shrug,Back,4,10,30,,,300
+1/23/2023,Leg Press,Quadriceps,1,10,50,,,500
+1/23/2023,Leg Press,Quadriceps,2,15,80,,,1200
+1/23/2023,Leg Press,Quadriceps,3,15,90,,,1350
+1/23/2023,Leg Press,Quadriceps,4,10,100,,,1000
+1/23/2023,Leg Extension,Quadriceps,1,10,30,,both legs,300
+1/23/2023,Leg Extension,Quadriceps,2,10,30,,one leg,300
+1/23/2023,Leg Extension,Quadriceps,3,10,30,,one leg,300
+1/23/2023,Leg Extension,Quadriceps,4,10,50,,one leg,500
+1/23/2023,Leg Extension,Quadriceps,5,10,50,,both legs,500
 1/26/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
 1/30/2023,Pull up,Back,1,5,,,,0
 1/30/2023,Pull up,Back,2,6,,,,0
@@ -2136,11 +2166,11 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 1/30/2023,Machine Rear Delt (Reverse) Fly,Back,2,10,50,,,500
 1/30/2023,Machine Rear Delt (Reverse) Fly,Back,3,10,40,,,400
 1/30/2023,Machine Rear Delt (Reverse) Fly,Back,4,10,50,,,500
-2/5/2023,Push Up,Chest,1,10,,,Parallette Push-Up,0
-2/5/2023,Push Up,Chest,2,10,,,Parallette Push-Up,0
-2/5/2023,Push Up,Chest,3,10,,,Parallette Push-Up,0
-2/5/2023,Push Up,Chest,4,10,,,,0
-2/5/2023,Push Up,Chest,5,10,,,,0
+2/5/2023,Parallette Push-Up,Chest,1,10,,,,0
+2/5/2023,Parallette Push-Up,Chest,2,10,,,,0
+2/5/2023,Parallette Push-Up,Chest,3,10,,,,0
+2/5/2023,Push Up,Chest,1,10,,,,0
+2/5/2023,Push Up,Chest,2,10,,,,0
 2/7/2023,Pull up,Back,1,5,,,,0
 2/7/2023,Pull up,Back,2,5,25,,,125
 2/7/2023,Pull up,Back,3,5,10,,,50
@@ -2188,17 +2218,20 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 2/9/2023,Front Raise,Shoulders,1,10,15,,,150
 2/9/2023,Front Raise,Shoulders,2,10,15,,,150
 2/9/2023,Front Raise,Shoulders,3,10,15,,,150
-2/20/2023,Push Up,Chest,1,10,,,Parallette Push-Up,0
-2/20/2023,Push Up,Chest,2,10,,,Parallette Push-Up,0
+2/20/2023,Parallette Push-Up,Chest,1,10,,,,0
+2/20/2023,Parallette Push-Up,Chest,2,10,,,,0
+2/20/2023,Push Up,Chest,1,10,,,,0
+2/20/2023,Push Up,Chest,2,10,,,,0
 2/20/2023,Push Up,Chest,3,10,,,,0
-2/20/2023,Push Up,Chest,4,10,,,,0
-2/20/2023,Push Up,Chest,5,10,,,,0
 2/20/2023,Squat,Quadriceps,1,25,,,,0
 2/20/2023,Squat,Quadriceps,2,25,,,,0
 2/20/2023,Lying Leg Raise,Abs,1,20,,,,0
 2/20/2023,Lying Leg Raise,Abs,2,20,,,,0
 2/20/2023,Sit-Up,Abs,1,20,,,,0
 2/20/2023,Sit-Up,Abs,2,20,,,,0
+2/21/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+2/23/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+2/24/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
 2/26/2023,Pull Up,Back,1,5,,,,0
 2/26/2023,Pull Up,Back,2,5,,,,0
 2/26/2023,Pull Up,Back,3,5,,,,0
@@ -2223,9 +2256,6 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 2/26/2023,Machine Row,Back,1,10,50,,,500
 2/26/2023,Machine Row,Back,2,10,80,,,800
 2/26/2023,Machine Row,Back,3,10,90,,,900
-2/24/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
-2/23/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
-2/21/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
 2/27/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
 2/28/2023,Pull Up,Back,1,5,,,,0
 2/28/2023,Pull Up,Back,2,5,10,,,50
@@ -2406,36 +2436,75 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 3/12/2023,Dumbbell Overhead Triceps Extension,Triceps,2,10,35,,,350
 3/12/2023,Dumbbell Overhead Triceps Extension,Triceps,3,10,35,,,350
 3/12/2023,Dumbbell Overhead Triceps Extension,Triceps,4,10,35,,,350
-3/12/2023,Dumbbell Bulgarian Split-Squat,Quadriceps,1,10,,,,0
+3/12/2023,Bulgarian Split-Squat,Quadriceps,1,10,,,,0
+3/12/2023,Dumbbell Bulgarian Split-Squat,Quadriceps,1,10,35,,One dumbbell,350
 3/12/2023,Dumbbell Bulgarian Split-Squat,Quadriceps,2,10,35,,One dumbbell,350
-3/12/2023,Dumbbell Bulgarian Split-Squat,Quadriceps,3,10,35,,One dumbbell,350
-5/31/2021,Bodyweight,Weight,,,127.8,,,0
-6/1/2021,Bodyweight,Weight,,,128.3,,,0
-6/7/2021,Bodyweight,Weight,,,130,,,0
-6/9/2021,Bodyweight,Weight,,,128.9,,,0
-7/8/2021,Bodyweight,Weight,,,129,,,0
-7/10/2021,Bodyweight,Weight,,,125.8,,,0
-7/11/2021,Bodyweight,Weight,,,126.7,,,0
-7/12/2021,Bodyweight,Weight,,,126.2,,,0
-7/14/2021,Bodyweight,Weight,,,126.2,,,0
-7/15/2021,Bodyweight,Weight,,,127.3,,,0
-7/17/2021,Bodyweight,Weight,,,127.1,,,0
-7/22/2021,Bodyweight,Weight,,,127.9,,,0
-7/28/2021,Bodyweight,Weight,,,128.3,,,0
-7/29/2021,Bodyweight,Weight,,,127.1,,,0
-8/2/2021,Bodyweight,Weight,,,128.1,,,0
-8/3/2021,Bodyweight,Weight,,,128.3,,,0
-8/6/2021,Bodyweight,Weight,,,130.4,,,0
-8/9/2021,Bodyweight,Weight,,,132.2,,,0
-8/10/2021,Bodyweight,Weight,,,127.5,,,0
-8/12/2021,Bodyweight,Weight,,,128,,,0
-8/13/2021,Bodyweight,Weight,,,128.2,,,0
-8/16/2021,Bodyweight,Weight,,,128.5,,,0
-8/18/2021,Bodyweight,Weight,,,128.3,,,0
-8/23/2021,Bodyweight,Weight,,,129.4,,,0
-8/25/2021,Bodyweight,Weight,,,126.3,,,0
-9/5/2021,Bodyweight,Weight,,,128,,,0
-9/6/2021,Bodyweight,Weight,,,126.5,,,0
-9/29/2021,Bodyweight,Weight,,,130,,,0
-10/25/2021,Bodyweight,Weight,,,129,,,0
-10/26/2021,Bodyweight,Weight,,,128.7,,,0
+3/13/2023,Push Up,Chest,1,15,,,,0
+3/13/2023,Push Up,Chest,2,10,,,,0
+3/13/2023,Pull Up,Back,1,6,,,,0
+3/13/2023,Pull Up,Back,2,4,,,,0
+3/13/2023,Pull Up,Back,3,4,,,,0
+3/13/2023,Chin Up,Biceps,1,5,,,,0
+3/13/2023,Chin Up,Biceps,2,3,,,,0
+3/13/2023,Chin Up,Biceps,3,3,,,,0
+3/13/2023,Machine Lat Pull-down,Back,1,10,50,,Both arms,500
+3/13/2023,Machine Lat Pull-down,Back,2,10,70,,One arm,700
+3/13/2023,Machine Lat Pull-down,Back,3,8,70,,Both arms,560
+3/13/2023,Machine Lat Pull-down,Back,4,10,80,,One arm,800
+3/13/2023,Machine Lat Pull-down,Back,5,10,90,,One arm,900
+3/13/2023,Machine Lat Pull-down,Back,6,8,90,,Both arms,720
+3/13/2023,Machine Lat Pull-down,Back,7,10,100,,One arm,1000
+3/13/2023,Dumbbell Bench Press,Chest,1,10,45,,,450
+3/13/2023,Dumbbell Bench Press,Chest,2,10,45,,,450
+3/13/2023,Dumbbell Bench Press,Chest,3,10,45,,,450
+3/13/2023,Dumbbell Bench Press,Chest,4,8,45,,,360
+3/13/2023,Dumbbell Incline Bench Press,Chest,1,10,45,,,450
+3/13/2023,Dumbbell Incline Bench Press,Chest,2,8,45,,,360
+3/13/2023,Dumbbell Incline Bench Press,Chest,3,7,45,,,315
+3/13/2023,Dumbbell Shoulder Press,Shoulders,1,10,45,,,450
+3/13/2023,Dumbbell Shoulder Press,Shoulders,2,10,45,,,450
+3/13/2023,Lat Raise,Shoulders,1,10,15,,,150
+3/13/2023,Lat Raise,Shoulders,2,10,15,,,150
+3/13/2023,Lat Raise,Shoulders,3,10,15,,,150
+3/13/2023,Front Raise,Shoulders,1,10,15,,,150
+3/13/2023,Front Raise,Shoulders,2,10,15,,,150
+3/13/2023,Dumbbell Row,Back,1,10,45,,,450
+3/13/2023,Dumbbell Row,Back,2,10,45,,,450
+3/13/2023,Leg Curl,Glutes_Hamstrings,1,10,20,,,200
+3/13/2023,Leg Curl,Glutes_Hamstrings,2,10,25,,,250
+3/13/2023,Leg Curl,Glutes_Hamstrings,3,10,30,,,300
+3/13/2023,Leg Curl,Glutes_Hamstrings,4,10,30,,,300
+3/14/2023,Push Up,Chest,1,10,,,,0
+3/14/2023,Push Up,Chest,2,20,,,,0
+3/14/2023,Parallette Push-Up,Chest,1,10,,,,0
+3/14/2023,Parallette Push-Up,Chest,2,20,,,,0
+3/14/2023,Parallette Push-Up,Chest,3,10,,,,0
+3/14/2023,Lying Leg Raise,Abs,1,10,,,,0
+3/14/2023,Lying Leg Raise,Abs,2,10,,,,0
+3/14/2023,Machine Lat Pull-Down,Back,1,12,50,,,600
+3/14/2023,Machine Lat Pull-Down,Back,2,10,70,,One arm,700
+3/14/2023,Machine Lat Pull-Down,Back,3,8,70,,,560
+3/14/2023,Machine Lat Pull-Down,Back,4,10,90,,One arm,900
+3/14/2023,Machine Lat Pull-Down,Back,5,9,110,,,990
+3/14/2023,Machine Lat Pull-Down,Back,6,10,110,,One arm,1100
+3/14/2023,Machine Row,Back,1,10,50,,,500
+3/14/2023,Machine Row,Back,2,10,70,,One arm,700
+3/14/2023,Machine Row,Back,3,10,70,,,700
+3/14/2023,Machine Row,Back,4,10,90,,One arm,900
+3/14/2023,Machine Row,Back,5,10,90,,,900
+3/14/2023,Machine Row,Back,6,10,110,,One arm,1100
+3/14/2023,Machine Row,Back,7,10,110,,,1100
+3/14/2023,Dumbbell Shrug,Back,1,10,35,,,350
+3/14/2023,Dumbbell Shrug,Back,2,10,35,,,350
+3/14/2023,Dumbbell Shrug,Back,3,10,35,,,350
+3/14/2023,Dumbbell Shrug,Back,4,10,50,,,500
+3/14/2023,Dumbbell Shrug,Back,5,10,50,,,500
+3/14/2023,Machine Rear Delt (Reverse) Fly,Back,1,10,30,,,300
+3/14/2023,Machine Rear Delt (Reverse) Fly,Back,2,8,40,,,320
+3/14/2023,Machine Rear Delt (Reverse) Fly,Back,3,7,40,,,280
+3/14/2023,Machine Rear Delt (Reverse) Fly,Back,4,9,50,,,450
+3/14/2023,Machine Butterfly,Chest,1,10,50,,,500
+3/14/2023,Machine Butterfly,Chest,2,8,60,,,480
+3/14/2023,Machine Butterfly,Chest,3,8,60,,,480
+3/14/2023,Machine Butterfly,Chest,4,10,70,,,700
+3/14/2023,Push Up,Chest,3,12,,,,0
