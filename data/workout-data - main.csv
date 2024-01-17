@@ -2570,6 +2570,29 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 3/18/2023,Lat Raise,Shoulders,2,10,15,,,150
 3/18/2023,Front Raise,Shoulders,1,10,15,,,150
 3/18/2023,Front Raise,Shoulders,2,10,15,,,150
+3/20/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+3/21/2023,Pull Up,Back,1,6,,,,0
+3/21/2023,Pull Up,Back,2,5,,,,0
+3/21/2023,Pull Up,Back,3,5,,,,0
+3/21/2023,Chin Up,Biceps,1,6,,,,0
+3/21/2023,Chin Up,Biceps,2,5,,,,0
+3/21/2023,Leg Press,Quadriceps,1,15,80,,,1200
+3/21/2023,Leg Press,Quadriceps,2,15,120,,,1800
+3/21/2023,Leg Press,Quadriceps,3,10,140,,,1400
+3/21/2023,Leg Press,Quadriceps,4,5,160,,,800
+3/21/2023,Leg Press,Quadriceps,5,5,180,,,900
+3/21/2023,Leg Extension,Quadriceps,1,20,30,,both legs,600
+3/21/2023,Leg Extension,Quadriceps,2,10,20,,one leg,200
+3/21/2023,Leg Extension,Quadriceps,3,10,20,,one leg,200
+3/21/2023,Leg Extension,Quadriceps,4,10,20,,one leg,200
+3/21/2023,Leg Extension,Quadriceps,5,10,30,,,300
+3/21/2023,Leg Curl,Glutes_Hamstrings,1,8,20,,,160
+3/21/2023,Leg Curl,Glutes_Hamstrings,2,8,25,,,200
+3/21/2023,Leg Curl,Glutes_Hamstrings,3,10,25,,,250
+3/21/2023,Leg Curl,Glutes_Hamstrings,4,10,30,,,300
+3/21/2023,Dumbbell Shoulder Press,Shoulders,1,10,30,,,300
+3/21/2023,Dumbbell Shoulder Press,Shoulders,2,10,30,,,300
+3/21/2023,Dumbbell Shoulder Press,Shoulders,3,10,30,,,300
 3/22/2023,Dumbbell Bench Press,Chest,1,10,35,,,350
 3/22/2023,Dumbbell Bench Press,Chest,2,10,45,,,450
 3/22/2023,Dumbbell Bench Press,Chest,3,8,45,,,360
@@ -2623,31 +2646,22 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 3/23/2023,Pull Up,Back,5,5,,,,0
 3/23/2023,Ez Barbell Bicep Curl,Biceps,1,10,30,,,300
 3/23/2023,Ez Barbell Bicep Curl,Biceps,2,10,30,,,300
-3/20/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
-3/21/2023,Pull Up,Back,1,6,,,,0
-3/21/2023,Pull Up,Back,2,5,,,,0
-3/21/2023,Pull Up,Back,3,5,,,,0
-3/21/2023,Chin Up,Biceps,1,6,,,,0
-3/21/2023,Chin Up,Biceps,2,5,,,,0
-3/21/2023,Leg Press,Quadriceps,1,15,80,,,1200
-3/21/2023,Leg Press,Quadriceps,2,15,120,,,1800
-3/21/2023,Leg Press,Quadriceps,3,10,140,,,1400
-3/21/2023,Leg Press,Quadriceps,4,5,160,,,800
-3/21/2023,Leg Press,Quadriceps,5,5,180,,,900
-3/21/2023,Leg Extension,Quadriceps,1,20,30,,both legs,600
-3/21/2023,Leg Extension,Quadriceps,2,10,20,,one leg,200
-3/21/2023,Leg Extension,Quadriceps,3,10,20,,one leg,200
-3/21/2023,Leg Extension,Quadriceps,4,10,20,,one leg,200
-3/21/2023,Leg Extension,Quadriceps,5,10,30,,,300
-3/21/2023,Leg Curl,Glutes_Hamstrings,1,8,20,,,160
-3/21/2023,Leg Curl,Glutes_Hamstrings,2,8,25,,,200
-3/21/2023,Leg Curl,Glutes_Hamstrings,3,10,25,,,250
-3/21/2023,Leg Curl,Glutes_Hamstrings,4,10,30,,,300
-3/21/2023,Dumbbell Shoulder Press,Shoulders,1,10,30,,,300
-3/21/2023,Dumbbell Shoulder Press,Shoulders,2,10,30,,,300
-3/21/2023,Dumbbell Shoulder Press,Shoulders,3,10,30,,,300
 3/24/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
 3/25/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+3/26/2023,Leg Press,Quadriceps,1,15,60,,,900
+3/26/2023,Leg Press,Quadriceps,2,15,80,,,1200
+3/26/2023,Leg Press,Quadriceps,3,15,100,,,1500
+3/26/2023,Leg Press,Quadriceps,4,15,120,,,1800
+3/26/2023,Leg Extension,Quadriceps,1,15,20,,both legs,300
+3/26/2023,Leg Extension,Quadriceps,2,15,30,,both legs,450
+3/26/2023,Leg Extension,Quadriceps,3,15,40,,both legs,600
+3/26/2023,Leg Extension,Quadriceps,4,15,50,,both legs,750
+3/26/2023,Leg Curl,Glutes_Hamstrings,1,15,20,,both legs,300
+3/26/2023,Leg Curl,Glutes_Hamstrings,2,15,30,,both legs,450
+3/26/2023,Dumbbell Shoulder Press,Shoulders,1,12,35,,,420
+3/26/2023,Dumbbell Shoulder Press,Shoulders,2,10,35,,,350
+3/26/2023,Dumbbell Shoulder Press,Shoulders,3,10,35,,,350
+3/26/2023,Dumbbell Shoulder Press,Shoulders,4,10,35,,,350
 3/27/2023,Pull Up,Back,1,6,,,,0
 3/27/2023,Pull Up,Back,2,5,,,,0
 3/27/2023,Pull Up,Back,3,5,,,,0
@@ -2686,20 +2700,6 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 3/27/2023,Single Arm Tricep Pushdown / Extension,Triceps,1,10,10,,,100
 3/27/2023,Single Arm Tricep Pushdown / Extension,Triceps,2,10,15,,,150
 3/27/2023,Single Arm Tricep Pushdown / Extension,Triceps,3,10,15,,,150
-3/26/2023,Leg Press,Quadriceps,1,15,60,,,900
-3/26/2023,Leg Press,Quadriceps,2,15,80,,,1200
-3/26/2023,Leg Press,Quadriceps,3,15,100,,,1500
-3/26/2023,Leg Press,Quadriceps,4,15,120,,,1800
-3/26/2023,Leg Extension,Quadriceps,1,15,20,,both legs,300
-3/26/2023,Leg Extension,Quadriceps,2,15,30,,both legs,450
-3/26/2023,Leg Extension,Quadriceps,3,15,40,,both legs,600
-3/26/2023,Leg Extension,Quadriceps,4,15,50,,both legs,750
-3/26/2023,Leg Curl,Glutes_Hamstrings,1,15,20,,both legs,300
-3/26/2023,Leg Curl,Glutes_Hamstrings,2,15,30,,both legs,450
-3/26/2023,Dumbbell Shoulder Press,Shoulders,1,12,35,,,420
-3/26/2023,Dumbbell Shoulder Press,Shoulders,2,10,35,,,350
-3/26/2023,Dumbbell Shoulder Press,Shoulders,3,10,35,,,350
-3/26/2023,Dumbbell Shoulder Press,Shoulders,4,10,35,,,350
 3/28/2023,Leg Press,Quadriceps,1,15,60,,,900
 3/28/2023,Leg Press,Quadriceps,2,15,80,,,1200
 3/28/2023,Leg Press,Quadriceps,3,15,100,,,1500
@@ -2716,3 +2716,776 @@ Date,Exercise,Muscle_group,Sets,Reps,Weight,Duration,Note,Total_volume
 3/28/2023,Machine Calf Raise,Calves,2,10,40,,,400
 3/28/2023,Machine Calf Raise,Calves,3,10,50,,,500
 3/28/2023,Machine Calf Raise,Calves,4,10,40,,,400
+3/29/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+3/30/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+3/31/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+4/10/2023,Parallette Push-Up,Chest,1,20,,,,0
+4/10/2023,Push Up,Chest,1,20,,,,0
+4/11/2023,Pull Up,Back,1,8,,,,0
+4/11/2023,Pull Up,Back,2,4,,,,0
+4/11/2023,Chin Up,Biceps,1,6,,,,0
+4/11/2023,Dips,Triceps,1,8,,,,0
+4/11/2023,Dips,Triceps,2,10,,,,0
+4/11/2023,Dips,Triceps,3,8,,,,0
+4/11/2023,Machine Lat Pull-Down,Back,1,10,50,,both arms,500
+4/11/2023,Machine Lat Pull-Down,Back,2,10,70,,both arms,700
+4/11/2023,Machine Lat Pull-Down,Back,3,10,80,,both arms,800
+4/11/2023,Machine Lat Pull-Down,Back,4,10,90,,both arms,900
+4/11/2023,Machine Lat Pull-Down,Back,5,10,100,,both arms,1000
+4/11/2023,Machine Lat Pull-Down,Back,6,10,110,,both arms,1100
+4/11/2023,MTS Row,Back,1,10,20,,,200
+4/11/2023,MTS Row,Back,2,10,30,,,300
+4/11/2023,MTS Row,Back,3,10,40,,,400
+4/11/2023,MTS Row,Back,4,10,50,,,500
+4/11/2023,Dumbbell Incline Bench Biceps Curl,Biceps,1,12,15,,,180
+4/11/2023,Dumbbell Incline Bench Biceps Curl,Biceps,2,10,15,,,150
+4/11/2023,Dumbbell Incline Bench Biceps Curl,Biceps,3,8,15,,,120
+4/11/2023,Dumbbell Incline Bench Biceps Curl,Biceps,4,12,15,,,180
+4/11/2023,Bicep Curl,Biceps,1,10,15,,,150
+4/11/2023,Bicep Curl,Biceps,2,10,15,,,150
+4/11/2023,Bicep Curl,Biceps,3,10,15,,,150
+4/11/2023,Bicep Curl,Biceps,4,10,15,,,150
+4/11/2023,Ez Barbell Bicep Curl,Biceps,1,12,40,,,480
+4/11/2023,Ez Barbell Bicep Curl,Biceps,2,10,40,,,400
+4/11/2023,Ez Barbell Bicep Curl,Biceps,3,10,40,,,400
+4/12/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+4/15/2023,Pull Up,Back,1,6,,,,0
+4/15/2023,Pull Up,Back,2,5,,,,0
+4/15/2023,Chin Up,Biceps,1,6,,,,0
+4/15/2023,Chin Up,Biceps,1,10,,,,0
+4/15/2023,Chin Up,Biceps,2,8,,,,0
+4/15/2023,Chin Up,Biceps,3,8,,,,0
+4/15/2023,Dumbbell Bench Press,Chest,1,10,30,,,300
+4/15/2023,Dumbbell Bench Press,Chest,2,10,30,,,300
+4/15/2023,Dumbbell Bench Press,Chest,3,10,35,,,350
+4/15/2023,Dumbbell Bench Press,Chest,4,10,40,,,400
+4/15/2023,Dumbbell Bench Press,Chest,5,10,45,,,450
+4/15/2023,Machine Incline Chest Press,Chest,1,10,20,,,200
+4/15/2023,Machine Incline Chest Press,Chest,2,10,30,,,300
+4/15/2023,Machine Incline Chest Press,Chest,3,10,40,,,400
+4/15/2023,Machine Incline Chest Press,Chest,4,10,50,,,500
+4/15/2023,Machine Butterfly,Chest,1,10,50,,,500
+4/15/2023,Machine Butterfly,Chest,2,10,60,,,600
+4/15/2023,Machine Butterfly,Chest,3,10,60,,,600
+4/15/2023,Machine Butterfly,Chest,4,5,70,,,350
+4/15/2023,Cable Bar Biceps Curl,Biceps,1,10,15,,,150
+4/15/2023,Cable Bar Biceps Curl,Biceps,2,10,20,,,200
+4/15/2023,Cable Bar Biceps Curl,Biceps,3,10,25,,,250
+4/15/2023,Cable Bar Biceps Curl,Biceps,4,8,30,,,240
+4/16/2023,Pull Up,Back,1,6,,,,0
+4/16/2023,Pull Up,Back,2,5,,,,0
+4/16/2023,Chin Up,Biceps,1,6,,,,0
+4/16/2023,Chin Up,Biceps,2,5,,,,0
+4/16/2023,Dips,Triceps,1,10,,,,0
+4/16/2023,Dips,Triceps,2,8,,,,0
+4/16/2023,Dips,Triceps,3,8,,,,0
+4/16/2023,Dips,Triceps,4,10,,,,0
+4/16/2023,Leg Press,Quadriceps,1,25,60,,,1500
+4/16/2023,Leg Press,Quadriceps,2,20,80,,,1600
+4/16/2023,Leg Press,Quadriceps,3,20,120,,,2400
+4/16/2023,Leg Press,Quadriceps,4,15,160,,,2400
+4/16/2023,Leg Extension,Quadriceps,1,10,20,,,200
+4/16/2023,Leg Extension,Quadriceps,2,10,20,,,200
+4/16/2023,Leg Extension,Quadriceps,3,10,20,,,200
+4/16/2023,Leg Extension,Quadriceps,4,10,30,,,300
+4/16/2023,Machine Calf Raise,Calves,1,10,30,,,300
+4/16/2023,Machine Calf Raise,Calves,2,20,50,,,1000
+4/16/2023,Machine Calf Raise,Calves,3,10,70,,,700
+4/16/2023,Machine Calf Raise,Calves,4,10,50,,,500
+4/16/2023,Machine Lat Pull-Down,Back,1,10,50,,,500
+4/16/2023,Machine Lat Pull-Down,Back,2,10,70,,,700
+4/16/2023,Machine Lat Pull-Down,Back,3,10,90,,,900
+4/16/2023,Machine Lat Pull-Down,Back,4,10,100,,,1000
+4/16/2023,Machine Lat Pull-Down,Back,5,10,110,,,1100
+4/16/2023,Machine Row,Back,1,10,50,,,500
+4/16/2023,Machine Row,Back,2,10,70,,,700
+4/16/2023,Machine Row,Back,3,10,80,,,800
+4/16/2023,Machine Row,Back,4,10,80,,,800
+4/17/2023,Pull Up,Back,1,6,,,,0
+4/17/2023,Pull Up,Back,2,3,,,,0
+4/17/2023,Chin Up,Biceps,1,6,,,,0
+4/17/2023,Chin Up,Biceps,2,4,,,,0
+4/17/2023,Dips,Triceps,1,10,,,,0
+4/17/2023,Dips,Triceps,2,8,,,,0
+4/17/2023,Dips,Triceps,3,8,,,,0
+4/17/2023,Dumbbell Shoulder Press,Shoulders,1,10,40,,,400
+4/17/2023,Dumbbell Shoulder Press,Shoulders,2,8,40,,,320
+4/17/2023,Dumbbell Shoulder Press,Shoulders,3,8,45,,,360
+4/17/2023,Dumbbell Shoulder Press,Shoulders,4,10,40,,,400
+4/17/2023,Machine Incline Chest Press,Chest,1,10,20,,,200
+4/17/2023,Machine Incline Chest Press,Chest,2,10,30,,,300
+4/17/2023,Machine Incline Chest Press,Chest,3,10,40,,,400
+4/17/2023,Machine Incline Chest Press,Chest,4,10,40,,,400
+4/17/2023,Machine Incline Chest Press,Chest,5,10,50,,,500
+4/17/2023,MTS Row,Back,1,10,20,,,200
+4/17/2023,MTS Row,Back,2,10,30,,,300
+4/17/2023,MTS Row,Back,3,10,40,,,400
+4/17/2023,MTS Row,Back,4,10,50,,,500
+4/17/2023,Dumbbell Shrug,Back,1,10,30,,,300
+4/17/2023,Dumbbell Shrug,Back,2,10,30,,,300
+4/17/2023,Dumbbell Shrug,Back,3,10,30,,,300
+4/17/2023,Dumbbell Shrug,Back,4,10,40,,,400
+4/17/2023,Dumbbell Overhead Triceps Extension,Triceps,1,10,40,,,400
+4/17/2023,Dumbbell Overhead Triceps Extension,Triceps,2,10,40,,,400
+4/17/2023,Dumbbell Overhead Triceps Extension,Triceps,3,10,40,,,400
+4/18/2023,Pull Up,Back,1,5,,,,0
+4/18/2023,Pull Up,Back,2,3,25,,,75
+4/18/2023,Pull Up,Back,3,5,10,,,50
+4/18/2023,Chin Up,Biceps,1,5,,,,0
+4/18/2023,Chin Up,Biceps,2,5,,,,0
+4/18/2023,Dips,Triceps,1,10,,,,0
+4/18/2023,Dips,Triceps,2,8,10,,,80
+4/18/2023,Dips,Triceps,3,6,25,,,150
+4/18/2023,Dips,Triceps,4,5,45,,,225
+4/18/2023,Dips,Triceps,5,10,,,,0
+4/18/2023,Dips,Triceps,6,10,,,,0
+4/18/2023,Barbell T-Bar Row,Back,1,10,70,,,700
+4/18/2023,Barbell T-Bar Row,Back,2,10,90,,,900
+4/18/2023,Barbell T-Bar Row,Back,3,8,100,,,800
+4/18/2023,Barbell T-Bar Row,Back,4,8,115,,,920
+4/18/2023,Barbell T-Bar Row,Back,5,6,135,,,810
+4/18/2023,Barbell T-Bar Row,Back,6,5,135,,,675
+4/18/2023,Lat Pull-Down,Back,1,10,70,,,700
+4/18/2023,Lat Pull-Down,Back,2,10,90,,,900
+4/18/2023,Lat Pull-Down,Back,3,10,100,,,1000
+4/18/2023,Lat Pull-Down,Back,4,8,120,,,960
+4/18/2023,Lat Pull-Down,Back,5,8,130,,,1040
+4/18/2023,Lat Pull-Down,Back,6,10,120,,,1200
+4/18/2023,Lat Pull-Down,Back,7,10,100,,,1000
+4/19/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+4/24/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+4/25/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+4/29/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+4/30/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/1/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/3/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/6/2023,Ez Barbell Bicep Curl,Biceps,1,15,20,,,300
+5/6/2023,Ez Barbell Bicep Curl,Biceps,2,20,20,,,400
+5/6/2023,Ez Barbell Bicep Curl,Biceps,3,15,20,,,300
+5/6/2023,Ez Barbell Bicep Curl,Biceps,4,15,20,,,300
+5/6/2023,Bicep Curl,Biceps,1,12,15,,,180
+5/6/2023,Bicep Curl,Biceps,2,12,15,,,180
+5/6/2023,Bicep Curl,Biceps,3,12,15,,,180
+5/6/2023,Bicep Curl,Biceps,4,12,15,,,180
+5/6/2023,Cable Bar Biceps Curl,Biceps,1,10,20,,,200
+5/6/2023,Cable Bar Biceps Curl,Biceps,2,10,25,,,250
+5/6/2023,Cable Bar Biceps Curl,Biceps,3,10,30,,,300
+5/6/2023,Cable Bar Biceps Curl,Biceps,4,10,30,,,300
+5/6/2023,Dumbbell Overhead Triceps Extension,Triceps,1,10,40,,,400
+5/6/2023,Dumbbell Overhead Triceps Extension,Triceps,2,10,40,,,400
+5/6/2023,Dumbbell Overhead Triceps Extension,Triceps,3,10,40,,,400
+5/6/2023,Dumbbell Overhead Triceps Extension,Triceps,4,10,40,,,400
+5/6/2023,Dips,Triceps,1,10,,,,0
+5/6/2023,Dips,Triceps,2,10,,,,0
+5/6/2023,Dips,Triceps,3,10,,,,0
+5/6/2023,Dips,Triceps,4,10,,,,0
+5/6/2023,Cable One-Arm Row (Seated),Back,1,10,20,,,200
+5/6/2023,Cable One-Arm Row (Seated),Back,2,10,25,,,250
+5/6/2023,Cable One-Arm Row (Seated),Back,3,10,30,,,300
+5/7/2023,Dumbbell Bench Press,Chest,1,12,30,,,360
+5/7/2023,Dumbbell Bench Press,Chest,2,12,35,,,420
+5/7/2023,Dumbbell Bench Press,Chest,3,12,40,,,480
+5/7/2023,Dumbbell Bench Press,Chest,4,12,45,,,540
+5/7/2023,Dumbbell Bench Press,Chest,5,12,45,,,540
+5/7/2023,Dumbbell Bench Press,Chest,6,12,50,,,600
+5/7/2023,Dumbbell Incline Bench Press,Chest,1,10,30,,,300
+5/7/2023,Dumbbell Incline Bench Press,Chest,2,10,35,,,350
+5/7/2023,Dumbbell Incline Bench Press,Chest,3,10,40,,,400
+5/7/2023,Dumbbell Incline Bench Press,Chest,4,10,40,,,400
+5/7/2023,Dumbbell Incline Bench Press,Chest,5,10,45,,,450
+5/7/2023,Dumbbell Shoulder Press,Shoulders,1,10,35,,,350
+5/7/2023,Dumbbell Shoulder Press,Shoulders,2,10,35,,,350
+5/7/2023,Dumbbell Shoulder Press,Shoulders,3,10,40,,,400
+5/7/2023,Dumbbell Shoulder Press,Shoulders,4,10,45,,,450
+5/7/2023,Dumbbell Overhead Triceps Extension,Triceps,1,10,30,,,300
+5/7/2023,Dumbbell Overhead Triceps Extension,Triceps,2,10,30,,,300
+5/7/2023,Dumbbell Overhead Triceps Extension,Triceps,3,10,40,,,400
+5/7/2023,Dumbbell Overhead Triceps Extension,Triceps,4,10,40,,,400
+5/7/2023,Dumbbell Shrug,Back,1,10,40,,,400
+5/7/2023,Dumbbell Shrug,Back,2,10,40,,,400
+5/7/2023,Dumbbell Shrug,Back,3,10,40,,,400
+5/7/2023,Dumbbell Shrug,Back,4,10,40,,,400
+5/7/2023,Lat Raise,Shoulders,1,10,10,,,100
+5/7/2023,Lat Raise,Shoulders,2,10,10,,,100
+5/7/2023,Lat Raise,Shoulders,3,10,15,,,150
+5/7/2023,Lat Raise,Shoulders,4,10,15,,,150
+5/7/2023,Front Raise,Shoulders,1,10,10,,,100
+5/7/2023,Front Raise,Shoulders,2,10,10,,,100
+5/7/2023,Front Raise,Shoulders,3,10,15,,,150
+5/7/2023,Front Raise,Shoulders,4,10,15,,,150
+5/7/2023,Machine Butterfly,Chest,1,10,40,,,400
+5/7/2023,Machine Butterfly,Chest,2,10,50,,,500
+5/7/2023,Machine Butterfly,Chest,3,10,60,,,600
+5/7/2023,Machine Butterfly,Chest,4,10,70,,,700
+5/7/2023,Pull Up,Back,1,5,,,,0
+5/7/2023,Pull Up,Back,2,5,,,,0
+5/7/2023,Chin Up,Biceps,1,5,,,,0
+5/7/2023,Chin Up,Biceps,2,5,,,,0
+5/7/2023,Dips,Triceps,1,10,,,,0
+5/7/2023,Dips,Triceps,2,8,,,,0
+5/7/2023,Dips,Triceps,3,10,,,,0
+5/7/2023,Dips,Triceps,4,8,,,,0
+5/10/2023,Leg Press,Quadriceps,1,18,60,,,1080
+5/10/2023,Leg Press,Quadriceps,2,20,100,,,2000
+5/10/2023,Leg Press,Quadriceps,3,15,140,,,2100
+5/10/2023,Leg Press,Quadriceps,4,10,180,,,1800
+5/10/2023,Leg Extension,Quadriceps,1,15,30,,,450
+5/10/2023,Leg Extension,Quadriceps,2,15,25,,,375
+5/10/2023,Leg Extension,Quadriceps,3,15,20,,,300
+5/10/2023,Leg Extension,Quadriceps,4,15,25,,,375
+5/10/2023,Leg Extension,Quadriceps,5,10,30,,,300
+5/10/2023,Machine Calf Raise,Calves,1,10,60,,,600
+5/10/2023,Machine Calf Raise,Calves,2,10,80,,,800
+5/10/2023,Machine Calf Raise,Calves,3,10,100,,,1000
+5/10/2023,Machine Calf Raise,Calves,4,10,120,,,1200
+5/10/2023,Machine Calf Raise,Calves,5,10,140,,,1400
+5/8/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/9/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/11/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/13/2023,Dumbbell Bench Press,Chest,1,10,30,,,300
+5/13/2023,Dumbbell Bench Press,Chest,2,10,40,,,400
+5/13/2023,Dumbbell Bench Press,Chest,3,10,40,,,400
+5/13/2023,Dumbbell Bench Press,Chest,4,10,40,,,400
+5/13/2023,Dumbbell Bench Press,Chest,5,10,40,,,400
+5/13/2023,Dumbbell Incline Bench Press,Chest,1,10,40,,,400
+5/13/2023,Dumbbell Incline Bench Press,Chest,2,10,40,,,400
+5/13/2023,Dumbbell Incline Bench Press,Chest,3,10,40,,,400
+5/13/2023,Dumbbell Incline Bench Press,Chest,4,10,40,,,400
+5/13/2023,Dumbbell Incline Bench Press,Chest,5,10,40,,,400
+5/13/2023,Dumbbell Shoulder Press,Shoulders,1,10,40,,,400
+5/13/2023,Dumbbell Shoulder Press,Shoulders,2,10,40,,,400
+5/13/2023,Dumbbell Shoulder Press,#REF!,3,10,40,,,400
+5/13/2023,Dumbbell Overhead Triceps Extension,Triceps,1,10,40,,,400
+5/13/2023,Dumbbell Overhead Triceps Extension,Triceps,2,10,40,,,400
+5/13/2023,Dumbbell Overhead Triceps Extension,Triceps,3,10,40,,,400
+5/13/2023,Lat Raise,Shoulders,1,10,15,,,150
+5/13/2023,Lat Raise,Shoulders,2,10,15,,,150
+5/13/2023,Lat Raise,Shoulders,3,10,15,,,150
+5/13/2023,Front Raise,Shoulders,1,10,15,,,150
+5/13/2023,Front Raise,Shoulders,2,10,15,,,150
+5/13/2023,Front Raise,Shoulders,3,10,15,,,150
+5/13/2023,Pull Up,Back,1,5,,,,0
+5/13/2023,Pull Up,Back,2,5,,,,0
+5/13/2023,Chin Up,Biceps,1,5,,,,0
+5/13/2023,Chin Up,Biceps,2,5,,,,0
+5/13/2023,Dips,Triceps,1,10,,,,0
+5/13/2023,Dips,Triceps,2,10,,,,0
+5/13/2023,Dips,Triceps,3,10,,,,0
+5/13/2023,Dips,Triceps,4,10,,,,0
+5/14/2023,Pull Up,Back,1,5,,,,0
+5/14/2023,Pull Up,Back,2,5,,,,0
+5/14/2023,Chin Up,Biceps,1,5,,,,0
+5/14/2023,Chin Up,Biceps,2,5,,,,0
+5/14/2023,Dips,Triceps,1,10,,,,0
+5/14/2023,Dips,Triceps,2,10,,,,0
+5/14/2023,Dips,Triceps,3,10,,,,0
+5/14/2023,Dips,Triceps,4,10,,,,0
+5/14/2023,Machine Incline Chest Press,Chest,1,10,20,,,200
+5/14/2023,Machine Incline Chest Press,Chest,2,10,20,,,200
+5/14/2023,Machine Incline Chest Press,Chest,3,10,30,,,300
+5/14/2023,Machine Incline Chest Press,Chest,4,10,40,,,400
+5/14/2023,Lat Raise,Shoulders,1,10,15,,,150
+5/14/2023,Lat Raise,Shoulders,2,10,15,,,150
+5/14/2023,Lat Raise,Shoulders,3,10,15,,,150
+5/14/2023,Front Raise,Shoulders,1,10,15,,,150
+5/14/2023,Front Raise,Shoulders,2,10,15,,,150
+5/14/2023,Front Raise,Shoulders,3,10,15,,,150
+5/14/2023,Dumbbell Shoulder Press,Shoulders,1,10,30,,,300
+5/14/2023,Dumbbell Shoulder Press,Shoulders,2,10,30,,,300
+5/14/2023,Dumbbell Shoulder Press,Shoulders,3,10,30,,,300
+5/16/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/18/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/19/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/23/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/25/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/26/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/27/2023,Leg Press,Quadriceps,1,10,50,,,500
+5/27/2023,Leg Press,Quadriceps,2,10,80,,,800
+5/27/2023,Leg Press,Quadriceps,3,10,100,,,1000
+5/27/2023,Leg Press,Quadriceps,4,10,120,,,1200
+5/27/2023,Leg Curl,Glutes_Hamstrings,1,10,30,,,300
+5/27/2023,Leg Curl,Glutes_Hamstrings,2,10,40,,,400
+5/27/2023,Leg Curl,Glutes_Hamstrings,3,10,50,,,500
+5/27/2023,Leg Curl,Glutes_Hamstrings,4,10,40,,,400
+5/27/2023,Leg Curl,Glutes_Hamstrings,5,10,40,,,400
+5/27/2023,Leg Extension,Quadriceps,1,10,10,,,100
+5/27/2023,Leg Extension,Quadriceps,2,10,20,,,200
+5/27/2023,Leg Extension,Quadriceps,3,10,20,,,200
+5/27/2023,Leg Extension,Quadriceps,4,10,10,,,100
+5/27/2023,Leg Extension,Quadriceps,5,10,10,,,100
+5/27/2023,Dumbbell Shoulder Press,Shoulders,1,10,35,,,350
+5/27/2023,Dumbbell Shoulder Press,Shoulders,2,10,35,,,350
+5/27/2023,Dumbbell Shoulder Press,Shoulders,3,10,35,,,350
+5/27/2023,Dumbbell Shoulder Press,Shoulders,4,10,35,,,350
+5/27/2023,Dumbbell Bench Press,Chest,1,10,40,,,400
+5/27/2023,Dumbbell Bench Press,Chest,2,10,40,,,400
+5/27/2023,Dumbbell Bench Press,Chest,3,10,40,,,400
+5/28/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/29/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+5/31/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+6/3/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+6/4/2023,Dumbbell Bench Press,Chest,1,10,40,,,400
+6/4/2023,Dumbbell Bench Press,Chest,2,10,40,,,400
+6/4/2023,Dumbbell Bench Press,Chest,3,10,40,,,400
+6/4/2023,Dumbbell Bench Press,Chest,4,10,45,,,450
+6/4/2023,Dumbbell Incline Bench Press,Chest,1,10,40,,,400
+6/4/2023,Dumbbell Incline Bench Press,Chest,2,10,40,,,400
+6/4/2023,Dumbbell Incline Bench Press,Chest,3,10,40,,,400
+6/4/2023,Dumbbell Incline Bench Press,Chest,4,10,45,,,450
+6/4/2023,Dumbbell Shoulder Press,Shoulders,1,10,40,,,400
+6/4/2023,Dumbbell Shoulder Press,Shoulders,2,10,40,,,400
+6/4/2023,Dumbbell Shoulder Press,Shoulders,3,10,40,,,400
+6/4/2023,Dumbbell Shoulder Press,Shoulders,4,10,45,,,450
+6/4/2023,Dumbbell Overhead Triceps Extension,Triceps,1,10,40,,,400
+6/4/2023,Dumbbell Overhead Triceps Extension,Triceps,2,10,40,,,400
+6/4/2023,Dumbbell Overhead Triceps Extension,Triceps,3,10,40,,,400
+6/4/2023,Dumbbell Overhead Triceps Extension,Triceps,4,10,40,,,400
+6/4/2023,Dumbbell Shrug,Back,1,10,20,,,200
+6/4/2023,Dumbbell Shrug,Back,2,10,20,,,200
+6/4/2023,Dumbbell Shrug,Back,3,10,40,,,400
+6/4/2023,Dumbbell Shrug,Back,4,10,40,,,400
+6/4/2023,Machine Calf Raise,Calves,1,10,50,,,500
+6/4/2023,Machine Calf Raise,Calves,2,10,70,,,700
+6/4/2023,Machine Calf Raise,Calves,3,10,90,,,900
+6/4/2023,Machine Calf Raise,Calves,4,10,110,,,1100
+6/8/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+6/12/2023,Leg Press,Quadriceps,1,20,50,,,1000
+6/12/2023,Leg Press,Quadriceps,2,20,70,,,1400
+6/12/2023,Leg Press,Quadriceps,3,20,90,,,1800
+6/12/2023,Leg Press,Quadriceps,4,20,100,,,2000
+6/12/2023,Leg Press,Quadriceps,5,20,120,,,2400
+6/12/2023,Leg Press,Quadriceps,6,10,140,,,1400
+6/12/2023,Leg Curl,Glutes_Hamstrings,1,20,20,,,400
+6/12/2023,Leg Curl,Glutes_Hamstrings,2,20,25,,,500
+6/12/2023,Leg Curl,Glutes_Hamstrings,3,20,20,,,400
+6/12/2023,Leg Curl,Glutes_Hamstrings,4,20,20,,,400
+6/12/2023,Leg Curl,Glutes_Hamstrings,5,20,20,,,400
+6/12/2023,Leg Extension,Quadriceps,1,20,50,,,1000
+6/12/2023,Leg Extension,Quadriceps,2,20,50,,,1000
+6/12/2023,Leg Extension,Quadriceps,3,20,60,,,1200
+6/12/2023,Leg Extension,Quadriceps,4,20,70,,,1400
+6/12/2023,Leg Extension,Quadriceps,5,20,70,,,1400
+6/12/2023,Machine Shoulder Press,Shoulders,1,20,20,,,400
+6/12/2023,Machine Shoulder Press,Shoulders,2,20,30,,,600
+6/12/2023,Machine Shoulder Press,Shoulders,3,20,40,,,800
+6/12/2023,Machine Shoulder Press,Shoulders,4,20,50,,,1000
+6/12/2023,Machine Calf Raise,Calves,1,20,50,,,1000
+6/12/2023,Machine Calf Raise,Calves,2,20,70,,,1400
+6/12/2023,Machine Calf Raise,Calves,3,20,70,,,1400
+6/12/2023,Machine Calf Raise,Calves,4,20,90,,,1800
+6/12/2023,Machine Calf Raise,Calves,5,20,110,,,2200
+6/13/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+6/16/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+6/17/2023,Machine Incline Chest Press,Chest,1,20,20,,,400
+6/17/2023,Machine Incline Chest Press,Chest,2,20,30,,,600
+6/17/2023,Machine Incline Chest Press,Chest,3,20,30,,,600
+6/17/2023,Dumbbell Bench Press,Chest,1,12,35,,,420
+6/17/2023,Dumbbell Bench Press,Chest,2,12,40,,,480
+6/17/2023,Dumbbell Bench Press,Chest,3,12,45,,,540
+6/17/2023,Dumbbell Bench Press,Chest,4,12,50,,,600
+6/17/2023,Dumbbell Bench Press,Chest,5,5,55,,,275
+6/17/2023,Dumbbell Bench Press,Chest,6,5,60,,,300
+6/17/2023,Dumbbell Incline Bench Press,Chest,1,15,40,,,600
+6/17/2023,Dumbbell Incline Bench Press,Chest,2,15,40,,,600
+6/17/2023,Dumbbell Incline Bench Press,Chest,3,10,40,,,400
+6/17/2023,Dumbbell Incline Bench Press,Chest,4,10,40,,,400
+6/17/2023,Dumbbell Shoulder Press,Shoulders,1,12,40,,,480
+6/17/2023,Dumbbell Shoulder Press,Shoulders,2,10,40,,,400
+6/17/2023,Dumbbell Shrug,Back,1,20,20,,,400
+6/17/2023,Dumbbell Shrug,Back,2,20,20,,,400
+6/17/2023,Dumbbell Shrug,Back,3,15,20,,,300
+6/17/2023,Dumbbell Shrug,Back,4,15,20,,,300
+6/17/2023,Dumbbell Shrug,Back,5,10,20,,,200
+6/17/2023,Reverse Barbell Curls,Arms,1,15,20,,,300
+6/17/2023,Reverse Barbell Curls,Arms,2,15,20,,,300
+6/17/2023,Reverse Barbell Curls,Arms,3,10,20,,,200
+6/17/2023,Reverse Barbell Curls,Arms,4,10,20,,,200
+6/17/2023,Reverse Barbell Curls,Arms,5,10,20,,,200
+6/15/2023,Push Up,Chest,1,10,,,,
+6/15/2023,Push Up,Chest,2,10,,,,
+6/15/2023,Push Up,Chest,3,10,,,,
+6/15/2023,Push Up,Chest,4,10,,,,
+6/15/2023,Parallette Push-Up,Chest,1,10,,,,
+6/15/2023,Parallette Push-Up,Chest,2,10,,,,
+6/15/2023,Parallette Push-Up,Chest,3,10,,,,
+6/15/2023,Parallette Push-Up,Chest,4,10,,,,
+6/15/2023,Parallette Push-Up,Chest,5,10,,,,
+6/15/2023,Parallette Push-Up,Chest,6,10,,,,
+6/24/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+6/25/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+7/7/2023,Pull Up,Back,1,5,,,,0
+7/7/2023,Pull Up,Back,2,4,,,,0
+7/7/2023,Chin Up,Biceps,1,5,,,,0
+7/7/2023,Dips,Triceps,1,10,,,,0
+7/7/2023,Dips,Triceps,2,8,,,,0
+7/7/2023,Dips,Triceps,3,8,,,,0
+7/7/2023,Lat Pull-Down,Back,1,10,50,,,500
+7/7/2023,Lat Pull-Down,Back,2,10,70,,,700
+7/7/2023,Lat Pull-Down,Back,3,6,80,,,480
+7/7/2023,Lat Pull-Down,Back,4,5,80,,,400
+7/7/2023,Lat Pull-Down,Back,5,10,70,,,700
+7/7/2023,Machine Row,Back,1,10,50,,,500
+7/7/2023,Machine Row,Back,2,10,60,,,600
+7/7/2023,Machine Row,Back,3,10,80,,,800
+7/7/2023,Machine Row,Back,4,5,100,,,500
+7/7/2023,Machine Row,Back,5,5,100,,,500
+7/7/2023,Machine Lat Pull-Down,Back,1,10,50,,,500
+7/7/2023,Machine Lat Pull-Down,Back,2,10,60,,,600
+7/7/2023,Machine Lat Pull-Down,Back,3,10,80,,,800
+7/7/2023,Machine Lat Pull-Down,Back,4,5,100,,,500
+7/7/2023,Machine Lat Pull-Down,Back,5,5,100,,,500
+7/7/2023,Underhand Barbell Rows,Back,1,10,50,,,500
+7/7/2023,Underhand Barbell Rows,Back,2,10,50,,,500
+7/7/2023,Underhand Barbell Rows,Back,3,10,50,,,500
+7/7/2023,Underhand Barbell Rows,Back,4,10,50,,,500
+7/3/2023,Machine Incline Chest Press,Chest,1,10,20,,,200
+7/3/2023,Machine Incline Chest Press,Chest,2,10,30,,,300
+7/3/2023,Machine Incline Chest Press,Chest,3,10,40,,,400
+7/3/2023,Machine Incline Chest Press,Chest,4,10,50,,,500
+7/3/2023,Machine Incline Chest Press,Chest,5,10,50,,,500
+7/3/2023,MTS Front Pull-Down,Back,1,10,20,,,200
+7/3/2023,MTS Front Pull-Down,Back,2,10,30,,,300
+7/3/2023,MTS Front Pull-Down,Back,3,10,40,,,400
+7/3/2023,MTS Front Pull-Down,Back,4,10,50,,,500
+7/3/2023,MTS Front Pull-Down,Back,5,10,50,,,500
+6/29/2023,Pull Up,Back,1,6,,,,0
+6/29/2023,Chin Up,Biceps,1,6,,,,0
+6/29/2023,Dips,Triceps,1,8,,,,0
+6/29/2023,Dips,Triceps,2,8,,,,0
+6/29/2023,Hammer Curl,Biceps,1,10,15,,,150
+6/29/2023,Hammer Curl,Biceps,2,10,15,,,150
+6/29/2023,Hammer Curl,Biceps,3,10,15,,,150
+6/29/2023,Hammer Curl,Biceps,4,10,15,,,150
+6/29/2023,Hammer Curl,Biceps,5,10,15,,,150
+6/29/2023,Ez Barbell Bicep Curl,Biceps,1,10,30,,,300
+6/29/2023,Ez Barbell Bicep Curl,Biceps,2,10,30,,,300
+6/29/2023,Ez Barbell Bicep Curl,Biceps,3,10,30,,,300
+6/29/2023,Ez Barbell Bicep Curl,Biceps,4,10,30,,,300
+6/29/2023,Dumbbell Overhead Triceps Extension,Triceps,1,10,40,,,400
+6/29/2023,Dumbbell Overhead Triceps Extension,Triceps,2,10,40,,,400
+6/29/2023,Dumbbell Overhead Triceps Extension,Triceps,3,10,40,,,400
+6/29/2023,Dumbbell Overhead Triceps Extension,Triceps,4,10,40,,,400
+6/29/2023,Bicep Curl,Biceps,1,10,15,,,150
+6/29/2023,Bicep Curl,Biceps,2,10,15,,,150
+6/29/2023,Bicep Curl,Biceps,3,10,15,,,150
+6/29/2023,Bicep Curl,Biceps,4,10,15,,,150
+6/29/2023,Dumbbell Shrug,Back,1,10,40,,,400
+6/29/2023,Dumbbell Shrug,Back,2,10,40,,,400
+6/29/2023,Dumbbell Shrug,Back,3,10,40,,,400
+6/29/2023,Dumbbell Shrug,Back,4,10,40,,,400
+6/26/2023,Leg Press,Quadriceps,1,20,60,,,1200
+6/26/2023,Leg Press,Quadriceps,2,20,80,,,1600
+6/26/2023,Leg Press,Quadriceps,3,15,100,,,1500
+6/26/2023,Leg Press,Quadriceps,4,15,120,,,1800
+6/26/2023,Leg Press,Quadriceps,5,5,140,,,700
+6/26/2023,Leg Press,Quadriceps,6,10,200,,,2000
+6/26/2023,Machine Calf Raise,Calves,1,15,40,,,600
+6/26/2023,Machine Calf Raise,Calves,2,10,40,,,400
+6/26/2023,Machine Calf Raise,Calves,3,15,60,,,900
+6/26/2023,Machine Calf Raise,Calves,4,12,60,,,720
+6/26/2023,Machine Calf Raise,Calves,5,15,80,,,1200
+6/26/2023,Machine Calf Raise,Calves,6,15,100,,,1500
+6/26/2023,Leg Curl,Glutes_Hamstrings,1,20,20,,,400
+6/26/2023,Leg Curl,Glutes_Hamstrings,2,20,30,,,600
+6/26/2023,Leg Curl,Glutes_Hamstrings,3,10,40,,,400
+6/26/2023,Leg Curl,Glutes_Hamstrings,4,10,50,,,500
+6/26/2023,Leg Curl,Glutes_Hamstrings,5,10,60,,,600
+6/26/2023,Leg Extension,Quadriceps,1,20,20,,,400
+6/26/2023,Leg Extension,Quadriceps,2,20,20,,,400
+6/26/2023,Leg Extension,Quadriceps,3,20,25,,,500
+6/26/2023,Leg Extension,Quadriceps,4,12,30,,,360
+6/26/2023,Leg Extension,Quadriceps,5,10,20,,,200
+6/26/2023,Dumbbell Shoulder Press,Shoulders,1,10,40,,,400
+6/26/2023,Dumbbell Shoulder Press,Shoulders,2,10,40,,,400
+6/26/2023,Dumbbell Shoulder Press,Shoulders,3,10,40,,,400
+6/26/2023,Dumbbell Shoulder Press,Shoulders,4,10,40,,,400
+6/26/2023,Dumbbell Shoulder Press,Shoulders,5,10,40,,,400
+6/26/2023,Dumbbell Overhead Triceps Extension,Triceps,1,10,40,,,400
+6/26/2023,Dumbbell Overhead Triceps Extension,Triceps,2,10,40,,,400
+6/26/2023,Dumbbell Overhead Triceps Extension,Triceps,3,10,40,,,400
+6/21/2023,MTS Row,Back,1,10,20,,,200
+6/21/2023,MTS Row,Back,2,10,30,,,300
+6/21/2023,MTS Row,Back,3,7,50,,,350
+6/21/2023,MTS Row,Back,3,7,30,,,210
+6/21/2023,MTS Row,Back,4,5,50,,,250
+6/21/2023,MTS Row,Back,4,5,30,,,150
+6/21/2023,MTS Row,Back,5,10,40,,,400
+6/21/2023,Machine Lat Pull-Down,Back,1,10,50,,,500
+6/21/2023,Machine Lat Pull-Down,Back,2,10,80,,,800
+6/21/2023,Machine Lat Pull-Down,Back,3,10,100,,,1000
+6/21/2023,Machine Lat Pull-Down,Back,4,8,110,,,880
+6/21/2023,Machine Row,Back,1,10,50,,,500
+6/21/2023,Machine Row,Back,2,10,60,,,600
+6/21/2023,Machine Row,Back,3,10,80,,,800
+6/21/2023,Machine Row,Back,4,10,100,,,1000
+6/21/2023,Underhand Barbell Rows,Back,1,10,40,,,400
+6/21/2023,Underhand Barbell Rows,Back,2,10,40,,,400
+6/21/2023,Underhand Barbell Rows,Back,3,10,40,,,400
+6/21/2023,Ez Barbell Bicep Curl,Biceps,1,10,40,,,400
+6/21/2023,Ez Barbell Bicep Curl,Biceps,2,10,40,,,400
+6/21/2023,Ez Barbell Bicep Curl,Biceps,3,10,40,,,400
+6/21/2023,Bicep Curl,Biceps,1,15,15,,,225
+6/21/2023,Bicep Curl,Biceps,2,10,15,,,150
+6/21/2023,Bicep Curl,Biceps,3,15,15,,,225
+6/21/2023,Hammer Curl,Biceps,1,10,15,,,150
+6/21/2023,Hammer Curl,Biceps,2,10,15,,,150
+6/21/2023,Hammer Curl,Biceps,3,10,15,,,150
+7/8/2023,Dumbbell Bench Press,Chest,1,10,40,,,400
+7/8/2023,Dumbbell Bench Press,Chest,2,10,40,,,400
+7/8/2023,Dumbbell Bench Press,Chest,3,10,45,,,450
+7/8/2023,Dumbbell Bench Press,Chest,4,8,45,,,360
+7/8/2023,Dumbbell Bench Press,Chest,5,8,50,,,400
+7/8/2023,Machine Incline Chest Press,Chest,1,10,20,,,200
+7/8/2023,Machine Incline Chest Press,Chest,2,10,40,,,400
+7/8/2023,Machine Incline Chest Press,Chest,3,8,50,,,400
+7/8/2023,Machine Incline Chest Press,Chest,4,8,50,,,400
+7/8/2023,Machine Rear Delt (Reverse) Fly,Back,1,10,50,,,500
+7/8/2023,Machine Rear Delt (Reverse) Fly,Back,2,10,60,,,600
+7/8/2023,Machine Rear Delt (Reverse) Fly,Back,3,8,60,,,480
+7/8/2023,Machine Rear Delt (Reverse) Fly,Back,4,8,50,,,400
+7/8/2023,Machine Rear Delt (Reverse) Fly,Back,5,5,50,,,250
+7/8/2023,Machine Calf Raise,Calves,1,10,55,,,550
+7/8/2023,Machine Calf Raise,Calves,2,10,70,,,700
+7/8/2023,Machine Calf Raise,Calves,3,10,90,,,900
+7/8/2023,Machine Calf Raise,Calves,4,10,90,,,900
+7/8/2023,Lat Pull-Down,Back,1,10,50,,,500
+7/8/2023,Lat Pull-Down,Back,2,10,70,,,700
+7/8/2023,Lat Pull-Down,Back,3,10,80,,,800
+7/8/2023,Lat Pull-Down,Back,4,10,90,,,900
+7/8/2023,Lat Pull-Down,Back,5,10,100,,,1000
+7/8/2023,Seated Cable Row (V Handle),Back,1,10,50,,,500
+7/8/2023,Seated Cable Row (V Handle),Back,2,10,80,,,800
+7/8/2023,Seated Cable Row (V Handle),Back,3,10,80,,,800
+7/8/2023,Seated Cable Row (V Handle),Back,4,10,90,,,900
+7/8/2023,Seated Cable Row (V Handle),Back,5,10,90,,,900
+7/9/2023,Push Up,Chest,1,20,,,,0
+7/9/2023,Push Up,Chest,2,20,,,,0
+7/9/2023,Parallette Push-Up,Chest,1,20,,,,0
+7/9/2023,Parallette Push-Up,Chest,2,20,,,,0
+7/9/2023,Parallette Push-Up,Chest,3,20,,,,0
+7/16/2023,Parallette Push-Up,Chest,1,20,,,,0
+7/16/2023,Parallette Push-Up,Chest,2,20,,,,0
+7/17/2023,Parallette Push-Up,Chest,1,20,,,,0
+7/17/2023,Machine Lat Pull-Down,Back,1,15,50,,,750
+7/17/2023,Machine Lat Pull-Down,Back,2,15,80,,,1200
+7/17/2023,Machine Lat Pull-Down,Back,3,12,90,,,1080
+7/17/2023,Machine Lat Pull-Down,Back,4,12,100,,,1200
+7/17/2023,Machine Lat Pull-Down,Back,5,12,100,,,1200
+7/17/2023,MTS Front Pull-Down,Back,1,15,25,,,375
+7/17/2023,MTS Front Pull-Down,Back,2,15,35,,,525
+7/17/2023,MTS Front Pull-Down,Back,3,12,45,,,540
+7/17/2023,MTS Front Pull-Down,Back,4,12,45,,,540
+7/17/2023,MTS Row,Back,1,15,25,,,375
+7/17/2023,MTS Row,Back,2,15,35,,,525
+7/17/2023,MTS Row,Back,3,12,45,,,540
+7/17/2023,MTS Row,Back,4,12,45,,,540
+7/17/2023,Underhand Barbell Rows,Back,1,10,60,,,600
+7/17/2023,Underhand Barbell Rows,Back,2,10,60,,,600
+7/17/2023,Underhand Barbell Rows,Back,3,10,60,,,600
+7/17/2023,Underhand Barbell Rows,Back,4,10,60,,,600
+7/15/2023,Machine Lat Pull-Down,Back,1,15,50,,,750
+7/15/2023,Machine Lat Pull-Down,Back,2,15,80,,,1200
+7/15/2023,Machine Lat Pull-Down,Back,3,12,90,,,1080
+7/15/2023,Machine Lat Pull-Down,Back,4,12,100,,,1200
+7/15/2023,Machine Lat Pull-Down,Back,5,12,100,,,1200
+7/15/2023,MTS Front Pull-Down,Back,1,15,25,,,375
+7/15/2023,MTS Front Pull-Down,Back,2,15,35,,,525
+7/15/2023,MTS Front Pull-Down,Back,3,12,45,,,540
+7/15/2023,MTS Front Pull-Down,Back,4,12,45,,,540
+7/15/2023,MTS Row,Back,1,15,25,,,375
+7/15/2023,MTS Row,Back,2,15,35,,,525
+7/15/2023,MTS Row,Back,3,12,45,,,540
+7/15/2023,MTS Row,Back,4,12,45,,,540
+7/15/2023,Underhand Barbell Rows,Back,1,10,60,,,600
+7/15/2023,Underhand Barbell Rows,Back,2,10,60,,,600
+7/15/2023,Underhand Barbell Rows,Back,3,10,60,,,600
+7/15/2023,Underhand Barbell Rows,Back,4,10,60,,,600
+7/13/2023,Note,Note,,,,,"Went to the gym, forgot to record workout.",0
+7/18/2023,Parallette Push-Up,Chest,20,,,,,0
+7/19/2023,Dumbbell Bench Press,Chest,1,15,35,,,525
+7/19/2023,Dumbbell Bench Press,Chest,2,15,40,,,600
+7/19/2023,Dumbbell Bench Press,Chest,3,10,40,,,400
+7/19/2023,Dumbbell Bench Press,Chest,4,5,50,,,250
+7/19/2023,Dumbbell Bench Press,Chest,4,6,40,,,240
+7/19/2023,Machine Incline Chest Press,Chest,1,15,25,,,375
+7/19/2023,Machine Incline Chest Press,Chest,2,12,35,,,420
+7/19/2023,Machine Incline Chest Press,Chest,3,10,45,,,450
+7/19/2023,Machine Incline Chest Press,Chest,4,10,45,,,450
+7/19/2023,Machine Shoulder Press,Shoulders,1,15,25,,,375
+7/19/2023,Machine Shoulder Press,Shoulders,2,12,35,,,420
+7/19/2023,Machine Shoulder Press,Shoulders,3,10,45,,,450
+7/19/2023,Machine Shoulder Press,Shoulders,4,10,45,,,450
+7/19/2023,Dumbbell Overhead Triceps Extension,Triceps,1,10,40,,,400
+7/19/2023,Dumbbell Overhead Triceps Extension,Triceps,2,10,40,,,400
+7/19/2023,Dumbbell Overhead Triceps Extension,Triceps,3,10,40,,,400
+7/19/2023,Dumbbell Overhead Triceps Extension,Triceps,4,10,40,,,400
+7/17/2023,Note,Note,,,,,"Went to the gym, forgot to record workout.",0
+7/22/2023,Leg Press,Quadriceps,1,15,40,,,600
+7/22/2023,Leg Press,Quadriceps,2,15,50,,,750
+7/22/2023,Leg Press,Quadriceps,3,15,60,,,900
+7/22/2023,Leg Press,Quadriceps,4,15,80,,,1200
+7/22/2023,Leg Press,Quadriceps,5,15,100,,,1500
+7/22/2023,Leg Extension,Quadriceps,1,15,20,,,300
+7/22/2023,Leg Extension,Quadriceps,2,15,25,,,375
+7/22/2023,Leg Extension,Quadriceps,3,15,30,,,450
+7/22/2023,Leg Extension,Quadriceps,4,15,25,,,375
+7/22/2023,Leg Extension,Quadriceps,5,15,20,,,300
+7/22/2023,Leg Curl,Glutes_Hamstrings,1,15,20,,,300
+7/22/2023,Leg Curl,Glutes_Hamstrings,2,15,25,,,375
+7/22/2023,Leg Curl,Glutes_Hamstrings,3,15,30,,,450
+7/22/2023,Leg Curl,Glutes_Hamstrings,4,15,25,,,375
+7/22/2023,Leg Curl,Glutes_Hamstrings,5,15,20,,,300
+7/22/2023,MTS Row,Back,1,10,20,,,200
+7/22/2023,MTS Row,Back,2,10,30,,,300
+7/22/2023,MTS Row,Back,3,10,40,,,400
+7/22/2023,MTS Row,Back,4,10,50,,,500
+7/22/2023,MTS Front Pull-Down,Back,1,10,20,,,200
+7/22/2023,MTS Front Pull-Down,Back,2,10,30,,,300
+7/22/2023,MTS Front Pull-Down,Back,3,10,40,,,400
+7/22/2023,MTS Front Pull-Down,Back,4,10,50,,,500
+7/22/2023,Machine Calf Raise,Calves,1,10,50,,,500
+7/22/2023,Machine Calf Raise,Calves,2,10,70,,,700
+7/22/2023,Machine Calf Raise,Calves,3,10,90,,,900
+7/22/2023,Machine Calf Raise,Calves,4,10,110,,,1100
+7/22/2023,Underhand Barbell Rows,Back,1,10,60,,,600
+7/22/2023,Underhand Barbell Rows,Back,2,10,60,,,600
+7/22/2023,Underhand Barbell Rows,Back,3,10,60,,,600
+7/22/2023,Underhand Barbell Rows,Back,4,10,60,,,600
+7/22/2023,Underhand Barbell Rows,Back,5,10,60,,,600
+7/24/2023,MTS Row,Back,1,10,20,,,200
+7/24/2023,MTS Row,Back,2,10,30,,,300
+7/24/2023,MTS Row,Back,3,10,40,,,400
+7/24/2023,MTS Row,Back,4,10,50,,,500
+7/24/2023,MTS Front Pull-Down,Back,1,10,20,,,200
+7/24/2023,MTS Front Pull-Down,Back,2,10,30,,,300
+7/24/2023,MTS Front Pull-Down,Back,3,10,40,,,400
+7/24/2023,MTS Front Pull-Down,Back,4,10,50,,,500
+7/24/2023,Machine Calf Raise,Calves,1,10,50,,,500
+7/24/2023,Machine Calf Raise,Calves,2,10,70,,,700
+7/24/2023,Machine Calf Raise,Calves,3,10,90,,,900
+7/24/2023,Machine Calf Raise,Calves,4,10,110,,,1100
+7/24/2023,Underhand Barbell Rows,Back,1,10,60,,,600
+7/24/2023,Underhand Barbell Rows,Back,2,10,60,,,600
+7/24/2023,Underhand Barbell Rows,Back,3,10,60,,,600
+7/24/2023,Underhand Barbell Rows,Back,4,10,60,,,600
+7/24/2023,Underhand Barbell Rows,Back,5,10,60,,,600
+7/24/2023,Machine Lat Pull-Down,Back,1,10,50,,,500
+7/24/2023,Machine Lat Pull-Down,Back,2,10,80,,,800
+7/24/2023,Machine Lat Pull-Down,Back,3,10,90,,,900
+7/24/2023,Machine Lat Pull-Down,Back,4,10,100,,,1000
+7/24/2023,Machine Lat Pull-Down,Back,5,10,110,,,1100
+7/24/2023,Machine Row,Back,1,10,50,,,500
+7/24/2023,Machine Row,Back,2,10,80,,,800
+7/24/2023,Machine Row,Back,3,10,90,,,900
+7/24/2023,Machine Row,Back,4,10,100,,,1000
+7/24/2023,Machine Row,Back,5,10,110,,,1100
+7/24/2023,Dumbbell Shrug,Back,1,10,40,,,400
+7/24/2023,Dumbbell Shrug,Back,2,10,40,,,400
+7/24/2023,Dumbbell Shrug,Back,3,10,40,,,400
+7/24/2023,Dumbbell Shrug,Back,4,10,40,,,400
+7/26/2023,Machine Incline Chest Press,Chest,1,10,20,,,200
+7/26/2023,Machine Incline Chest Press,Chest,2,20,15,,,300
+7/26/2023,Machine Incline Chest Press,Chest,3,30,15,,,450
+7/26/2023,Dumbbell Bench Press,Chest,1,10,40,,,400
+7/26/2023,Dumbbell Bench Press,Chest,2,10,40,,,400
+7/26/2023,Dumbbell Bench Press,Chest,3,10,50,,,500
+7/26/2023,Dumbbell Bench Press,Chest,4,10,40,,,400
+7/26/2023,Machine Incline Chest Press,Chest,1,10,40,,,400
+7/26/2023,Machine Incline Chest Press,Chest,2,10,40,,,400
+7/26/2023,Machine Incline Chest Press,Chest,3,10,50,,,500
+7/26/2023,Dumbbell Shoulder Press,Shoulders,1,10,40,,,400
+7/26/2023,Dumbbell Shoulder Press,Shoulders,2,10,40,,,400
+7/26/2023,Dumbbell Shoulder Press,Shoulders,3,10,40,,,400
+7/26/2023,Dumbbell Shoulder Press,Shoulders,4,10,40,,,400
+01/10/2024,Pull Up,Back,1,5,,,,0
+01/10/2024,Pull Up,Back,2,5,,,,0
+01/10/2024,Chin Up,Biceps,1,5,,,,0
+01/10/2024,Chin Up,Biceps,2,5,,,,0
+01/10/2024,Dips,Triceps,1,10,,,,0
+01/10/2024,Dips,Triceps,2,8,,,,0
+01/10/2024,Dips,Triceps,3,5,,,,0
+01/10/2024,Dips,Triceps,4,5,,,,0
+01/10/2024,Dumbbell Bench Press,Chest,1,10,30,,,300
+01/10/2024,Dumbbell Bench Press,Chest,2,10,40,,,400
+01/10/2024,Dumbbell Bench Press,Chest,3,8,40,,,320
+01/10/2024,Dumbbell Bench Press,Chest,3,5,30,,,150
+01/10/2024,Dumbbell Bench Press,Chest,4,5,40,,,200
+01/10/2024,Dumbbell Bench Press,Chest,4,5,30,,,150
+01/10/2024,Dumbbell Incline Bench Press,Chest,1,8,30,,,240
+01/10/2024,Dumbbell Incline Bench Press,Chest,2,8,40,,,320
+01/10/2024,Dumbbell Incline Bench Press,Chest,2,5,30,,,150
+01/10/2024,Dumbbell Incline Bench Press,Chest,3,8,40,,,320
+01/10/2024,Dumbbell Incline Bench Press,Chest,3,5,30,,,150
+01/10/2024,Dumbbell Shoulder Press,Shoulders,1,8,30,,,240
+01/10/2024,Dumbbell Shoulder Press,Shoulders,2,5,40,,,200
+01/10/2024,Dumbbell Shoulder Press,Shoulders,3,5,30,,,150
+01/10/2024,Dumbbell Shoulder Press,Shoulders,4,5,40,,,200
+01/02/2024,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+12/03/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+12/05/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+12/09/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+12/17/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+12/29/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+11/11/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+11/25/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+11/26/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+10/29/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+10/08/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+09/09/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+08/02/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+08/05/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+08/09/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+08/20/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+08/21/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+08/22/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+08/23/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+08/24/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+08/25/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+07/27/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+07/28/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+07/31/2023,Note,Note,,,,,"Went to gym, forgot to record workout.",0
+01/12/2024,Barbell Flat Bench Press,Chest,1,8,95,,,760
+01/12/2024,Barbell Flat Bench Press,Chest,2,6,115,,,690
+01/12/2024,Barbell Flat Bench Press,Chest,3,1,135,,,135
+01/12/2024,Barbell Flat Bench Press,Chest,4,1,135,,,135
+01/12/2024,Machine Incline Chest Press,Chest,1,6,45,,,270
+01/12/2024,Machine Incline Chest Press,Chest,2,3,70,,,210
+01/12/2024,Machine Incline Chest Press,Chest,3,5,45,,,225
+01/12/2024,Machine Incline Chest Press,Chest,4,5,45,,,225
+01/12/2024,Machine Butterfly,Chest,1,5,100,,,500
+01/12/2024,Machine Butterfly,Chest,2,5,60,,,300
+01/12/2024,Machine Butterfly,Chest,3,5,70,,,350
+01/12/2024,Machine Butterfly,Chest,4,5,80,,,400
+01/12/2024,Dips,Triceps,1,8,100,,,800
+01/12/2024,Dips,Triceps,2,10,80,,,800
+01/12/2024,Dips,Triceps,3,10,80,,,800
+01/12/2024,Single Arm Tricep Pushdown / Extension,Triceps,1,10,10,,,100
+01/12/2024,Single Arm Tricep Pushdown / Extension,Triceps,2,10,10,,,100
+01/12/2024,Single Arm Tricep Pushdown / Extension,Triceps,3,10,10,,,100
+01/12/2024,Cable Straight-Bar Triceps Push-Down,Triceps,1,8,20,,,160
+01/12/2024,Cable Straight-Bar Triceps Push-Down,Triceps,2,8,20,,,160
+01/12/2024,Cable Straight-Bar Triceps Push-Down,Triceps,3,8,20,,,160
+01/16/2024,Pull Up,Back,1,6,,,,0
+01/16/2024,Pull Up,Back,2,5,,,,0
+01/16/2024,Chin Up,Biceps,1,6,,,,0
+01/16/2024,Chin Up,Biceps,2,5,,,,0
+01/16/2024,Dips,Triceps,1,8,,,,0
+01/16/2024,Dips,Triceps,2,8,,,,0
+01/16/2024,Dips,Triceps,3,8,,,,0
+01/16/2024,Dips,Triceps,4,8,,,,0
+01/16/2024,Cable Rear Delt Flyes,Shoulders,1,15,10,,,150
+01/16/2024,Cable Rear Delt Flyes,Shoulders,2,12,10,,,120
+01/16/2024,Cable Rear Delt Flyes,Shoulders,3,10,5,,,50
+01/16/2024,Cable Lateral Raises,Shoulders,1,15,10,,,150
+01/16/2024,Cable Lateral Raises,Shoulders,2,12,10,,,120
+01/16/2024,Cable Lateral Raises,Shoulders,3,10,5,,,50
+01/16/2024,Cable Front Raises,Shoulders,1,15,10,,,150
+01/16/2024,Cable Front Raises,Shoulders,2,12,10,,,120
+01/16/2024,Cable Front Raises,Shoulders,3,10,5,,,50
+01/16/2024,Dumbbell Incline Bench Press,Chest,1,10,35,,,350
+01/16/2024,Dumbbell Incline Bench Press,Chest,2,10,35,,,350
+01/16/2024,Dumbbell Incline Bench Press,Chest,3,10,35,,,350
+01/16/2024,Dumbbell Row,Back,1,8,35,,,280
+01/16/2024,Dumbbell Row,Back,2,8,35,,,280
+01/16/2024,Dumbbell Shrug,Back,1,10,35,,,350
+01/16/2024,Treadmill Running,Cardio,1,1,,0:10:00,,0
