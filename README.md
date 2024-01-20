@@ -42,10 +42,7 @@ Notes:
 4. Open the provided URL in your web browser to view the dashboard.
 
 ## Usage
-app1
-- 
-
-app2
+app.py
 - Use the sidebar to select a muscle group.
 - View an overview of workout data for the selected muscle group.
 - Explore weight progression over time for each exercise in the selected muscle group.
