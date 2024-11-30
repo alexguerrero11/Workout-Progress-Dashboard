@@ -1,15 +1,14 @@
 # Workout Progress Dashboard
 
-This Streamlit app provides a workout progress dashboard to track and visualize your exercises over time. The app allows you to select a muscle group, view an overview of workout data, and highlight weight progression for each exercise in the selected muscle group.
+This Workout Dashboard is an interactive tool designed to help us users track and optimize our fitness routines. It integrates workout data and analytics into an easy-to-use interface allowing us to monitor our progress, plan workouts effectively, and achieve our fitness goals.
 
-Link to streamlit [dashboard](https://alexguerrero11-workout-dash-app-w6rpqx.streamlit.app/)
-
-Notes:
-- KPI's
-    -  Current week within the program starts on a Monday and ends on a Sunday.
+Features:
+- Workout Tracking: Log and view your exercises, sets, reps, and weights.
+- Analytics: Visualize trends in your performance over time with graphs and insights.
+    KPI's
+    - Current week within the program starts on a Monday and ends on a Sunday.
     - Current month includes all workout records within the current month.
     - Total records includes all record within dataset.
-
 
 ## Getting Started
 
