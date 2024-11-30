@@ -9,7 +9,30 @@ from dateutil.relativedelta import relativedelta
 file_path = 'data/workout - log.csv'
 df = pd.read_csv(file_path)
 
-# sorting dataframe according to date, exercise, sets
+# Convert Date to datetime
+df['Date'] = pd.to_datetime(df['Date'], format="%m/%d/%Y")
+
+# Ensure Exercise, Muscle, and Note are strings
+df['Exercise'] = df['Exercise'].astype(str)
+df['Muscle'] = df['Muscle'].astype(str)
+df['Note'] = df['Note'].fillna("").astype(str)
+
+# Convert Sets and Reps to float64
+df['Sets'] = df['Sets'].fillna(0).astype(int)
+df['Reps'] = df['Reps'].fillna(0).astype(int)
+
+# Convert Weight to float64, keeping NaN for missing values
+df['Weight'] = df['Weight'].astype(float)
+
+# Convert Duration to object (string) with default value for missing data
+df['Duration'] = df['Duration'].fillna("00:00:00").astype(str)
+
+# Convert Total_volume to float64, keeping NaN for missing values
+df['Total_volume'] = df['Reps'] * df['Weight'] 
+df['Total_volume'] = df['Total_volume'].astype(float)
+
+
+# Sort dataframe according to date, exercise, sets
 df = df.sort_values(by=['Date','Exercise','Sets'])
 
 # Date Parameters -- Calculations
