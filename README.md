@@ -5,6 +5,7 @@ This Workout Dashboard is an interactive tool designed to help us users track an
 Features:
 - Workout Tracking: Log and view your exercises, sets, reps, and weights.
 - Analytics: Visualize trends in your performance over time with graphs and insights.
+    
     KPI's
     - Current week within the program starts on a Monday and ends on a Sunday.
     - Current month includes all workout records within the current month.
