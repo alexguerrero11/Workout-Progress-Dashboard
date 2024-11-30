@@ -1,6 +1,6 @@
 # Workout Progress Dashboard
 
-This Workout Dashboard is an interactive tool designed to help us users track and optimize our fitness routines. It integrates workout data and analytics into an easy-to-use interfacem allowing us to monitor our progress, plan workouts effectively, and achieve our fitness goals.
+This Workout Dashboard is an interactive tool designed to help us users track and optimize our fitness routines. It integrates workout data and analytics into an easy-to-use interface allowing us to monitor our progress, plan workouts effectively, and achieve our fitness goals.
 
 Features:
 - Workout Tracking: Log and view your exercises, sets, reps, and weights.
