@@ -6,14 +6,8 @@ from dateutil.relativedelta import relativedelta
 
 
 # Load data from CSV
-file_path = 'data/workout-data - main.csv'
+file_path = 'data/workout - log.csv'
 df = pd.read_csv(file_path)
-
-# rows clean up - removing NaN rows
-# df = df[df.Date.notnull()]
-
-# changing date field to datetime
-#df['Date'] = pd.to_datetime(df['Date'], format="%m/%d/%Y")
 
 # sorting dataframe according to date, exercise, sets
 df = df.sort_values(by=['Date','Exercise','Sets'])
@@ -41,10 +35,10 @@ count_total_records = len(df['Date'].unique())
 latest_record = df[df['Date'] == df['Date'].unique()[-1]]
 
 # Sidebar for exercise selection
-selected_muscle_group = st.sidebar.selectbox('Select Muscle Group:', df['Muscle_group'].unique())
+selected_muscle_group = st.sidebar.selectbox('Select Muscle Group:', df['Muscle'].unique())
 
 # Filter data based on selected muscle group
-filtered_data = df[df['Muscle_group'] == selected_muscle_group]
+filtered_data = df[df['Muscle'] == selected_muscle_group]
 
 # Overview of all exercises according to muscle type
 st.title('Workout Progress Dashboard')
@@ -72,7 +66,7 @@ for exercise, data in filtered_data.groupby('Exercise'):
     st.markdown(f"**Exercise:** {exercise}")
 
 st.markdown('### Latest Record')
-st.text(f"Recent muscle groups worked out: {latest_record['Muscle_group'].unique()}")
+st.text(f"Recent muscle groups worked out: {latest_record['Muscle'].unique()}")
 # st.dataframe(latest_record[['Muscle_group', 'Exercise']])
 st.dataframe(latest_record)
 
