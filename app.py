@@ -10,7 +10,7 @@ file_path = 'data/workout - log.csv'
 df = pd.read_csv(file_path)
 
 # Convert Date to datetime
-df['Date'] = pd.to_datetime(df['Date'], format="%m/%d/%Y")
+df['Date'] = pd.to_datetime(df['Date'], format="%m/%d/%Y").dt.strftime("%Y-%m-%d")
 
 # Ensure Exercise, Muscle, and Note are strings
 df['Exercise'] = df['Exercise'].astype(str)
