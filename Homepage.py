@@ -98,24 +98,24 @@ def plot_data(df):
     """
     st.markdown("### Visualizations")
 
-    # # Exercise Frequency
-    # st.subheader("Exercise Frequency")
-    # fig, ax = plt.subplots()
-    # sns.countplot(data=df, y="Exercise", order=df['Exercise'].value_counts().index, ax=ax)
-    # ax.set_title("Frequency of Exercises")
-    # st.pyplot(fig)
+    # Exercise Frequency
+    st.subheader("Exercise Frequency")
+    fig, ax = plt.subplots()
+    sns.countplot(data=df, y="Exercise", order=df['Exercise'].value_counts().index, ax=ax)
+    ax.set_title("Frequency of Exercises")
+    st.pyplot(fig)
 
-    # # Weight Progression
-    # st.subheader("Weight Progression Over Time")
-    # if not df.empty:
-    #     weight_trend = df.groupby('Date')['Weight'].mean()
-    #     st.line_chart(weight_trend)
+    # Weight Progression
+    st.subheader("Weight Progression Over Time")
+    if not df.empty:
+        weight_trend = df.groupby('Date')['Weight'].mean()
+        st.line_chart(weight_trend)
 
-    # # Total Volume by Exercise
-    # st.subheader("Total Volume by Exercise")
-    # if 'Total Volume' in df.columns:
-    #     volume_by_exercise = df.groupby('Exercise')['Total_volume'].sum().sort_values()
-    #     st.bar_chart(volume_by_exercise)
+    # Total Volume by Exercise
+    st.subheader("Total Volume by Exercise")
+    if 'Total_volume' in df.columns:
+        volume_by_exercise = df.groupby('Exercise')['Total_volume'].sum().sort_values()
+        st.bar_chart(volume_by_exercise)
 
 
 
@@ -168,15 +168,12 @@ def homepage():
     # Display KPIs
     display_kpis(df)
 
-    # Filter data
-    filtered_data = filter_data(df)
-
-    # Display filtered data
-    st.markdown("### Filtered Workout Data")
-    st.dataframe(filtered_data)
+    # Display workout data
+    st.markdown("### Workout Data")
+    st.dataframe(df)
 
     # Plot data
-    plot_data(filtered_data)
+    plot_data(df)
 
 if __name__ == "__main__":
     homepage()

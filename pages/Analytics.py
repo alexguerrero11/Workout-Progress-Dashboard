@@ -103,11 +103,11 @@ def plot_data(df):
     st.subheader("Weight Progression Over Time")
     if not df.empty:
         weight_trend = df.groupby('Date')['Weight'].mean()
-        st.line_chart(weight_trend)
+        st.bar_chart(weight_trend)
 
     # Total Volume by Exercise
     st.subheader("Total Volume by Exercise")
-    if 'Total Volume' in df.columns:
+    if 'Total_volume' in df.columns:
         volume_by_exercise = df.groupby('Exercise')['Total_volume'].sum().sort_values()
         st.bar_chart(volume_by_exercise)
 
