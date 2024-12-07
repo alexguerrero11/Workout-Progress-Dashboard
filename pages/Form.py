@@ -108,6 +108,8 @@ def form():
 
     # Step 4: Create a table for dynamic input of sets details
     set_data = []
+    
+    # edited_df = st.experimental_data_editor(set_data)
 
     # Create the table with placeholders for reps, weight, duration, and note for each set
     for i in range(sets):

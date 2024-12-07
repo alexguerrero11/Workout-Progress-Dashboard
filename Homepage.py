@@ -169,8 +169,9 @@ def homepage():
     display_kpis(df)
 
     # Display workout data
-    st.markdown("### Workout Data")
-    st.dataframe(df)
+    with st.expander("Data Preview"):
+        st.dataframe(df.head())
+
 
     # Plot data
     plot_data(df)
