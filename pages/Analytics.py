@@ -1,10 +1,9 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-from datetime import datetime, date
+from datetime import date
 from dateutil.relativedelta import relativedelta
-
+import plotly.express as px
+import plotly.graph_objects as go
 
 def load_data(file_path: str):
     """
@@ -36,32 +35,23 @@ def load_data(file_path: str):
 
 def display_kpis(df):
     """
-    Display key performance indicators.
+    Display key performance indicators (KPIs).
     """
-    
     today = date.today()
     start_of_week = today - relativedelta(days=today.weekday())
-    end_of_Week = start_of_week + relativedelta(days=6)
-    first_day_of_month = today.replace(day=1)
-    next_month_first_day = today + relativedelta(months=1, day=1)
-
-    # Formatting into string
-    today = today.strftime('%m-%d-%Y')
-    start_of_week = start_of_week.strftime('%m-%d-%Y')
-    end_of_Week = end_of_Week.strftime('%m-%d-%Y')
-    first_day_of_month = first_day_of_month.strftime('%m-%d-%Y')
-    next_month_first_day = next_month_first_day.strftime('%m-%d-%Y')
+    start_of_last_week = start_of_week - relativedelta(weeks=1)
+    end_of_last_week = start_of_week - relativedelta(days=1)
 
     # KPIs
-    weekly_count = len(df.query(" Date >= @start_of_week & Date <= @end_of_Week")['Date'].unique())
-    monthly_count = len(df.query(" Date >= @first_day_of_month & Date < @next_month_first_day")['Date'].unique())
-    total_records = len(df['Date'].unique())
+    total_workouts = df['Date'].nunique()
+    weekly_workouts = len(df.query("Date >= @start_of_week")['Date'].unique())
+    last_week_workouts = len(df.query("Date >= @start_of_last_week & Date <= @end_of_last_week")['Date'].unique())
 
     st.markdown("### Key Performance Indicators")
     col1, col2, col3 = st.columns(3)
-    col1.metric("Workouts This Week", weekly_count)
-    col2.metric("Workouts This Month", monthly_count)
-    col3.metric("Total Workout Days", total_records)
+    col1.metric("Workouts This Week", weekly_workouts)
+    col2.metric("Workouts Last Week", last_week_workouts)
+    col3.metric("Total Workout Days", total_workouts)
 
 
 def filter_data(df):
@@ -69,47 +59,61 @@ def filter_data(df):
     Add sidebar filters and return filtered data.
     """
     st.sidebar.header("Filters")
-    # Filter by year
-    unique_years = list(sorted(df['Date'].dt.year.unique()))
-    selected_year = st.sidebar.selectbox("Select Year", unique_years,index=unique_years.index(2024))
-
-    # Filter by muscle group
-    unique_muscles = list(df['Muscle'].unique())
-    selected_muscle = st.sidebar.selectbox("Select Muscle Group", unique_muscles)
-
-    # Filter by exercises
-    filtered_df = df[(df['Date'].dt.year == selected_year) & (df['Muscle'] == selected_muscle)]
     
-    selected_exercises = st.sidebar.multiselect("Select Exercises", filtered_df['Exercise'].unique(),
-                                                default=filtered_df['Exercise'].unique())
+    # Date Range Picker
+    start_date, end_date = st.sidebar.date_input("Select Date Range", [df['Date'].min(), df['Date'].max()])
+    filtered_df = df[(df['Date'] >= pd.Timestamp(start_date)) & (df['Date'] <= pd.Timestamp(end_date))]
     
-    return filtered_df[filtered_df['Exercise'].isin(selected_exercises)]
+    # Muscle Group
+    unique_muscles = df['Muscle'].unique()
+    selected_muscle = st.sidebar.selectbox("Select Muscle Group", options=unique_muscles)
+    filtered_df = filtered_df[filtered_df['Muscle'] == selected_muscle]
+
+    # Exercises
+    unique_exercises = filtered_df['Exercise'].unique()
+    selected_exercises = st.sidebar.multiselect("Select Exercises", unique_exercises, default=unique_exercises)
+    filtered_df = filtered_df[filtered_df['Exercise'].isin(selected_exercises)]
+
+    return filtered_df
 
 
 def plot_data(df):
     """
-    Generate visualizations.
+    Generate advanced visualizations using Plotly.
     """
     st.markdown("### Visualizations")
 
+    if df.empty:
+        st.warning("No data available for the selected filters.")
+        return
+
     # Exercise Frequency
     st.subheader("Exercise Frequency")
-    fig, ax = plt.subplots()
-    sns.countplot(data=df, y="Exercise", order=df['Exercise'].value_counts().index, ax=ax)
-    ax.set_title("Frequency of Exercises")
-    st.pyplot(fig)
+    exercise_counts = df['Exercise'].value_counts().reset_index()
+    exercise_counts.columns = ['Exercise', 'Count']
+    fig = px.bar(exercise_counts, x='Count', y='Exercise', orientation='h',
+                 title="Frequency of Exercises", color='Count', text='Count')
+    st.plotly_chart(fig, use_container_width=True)
 
-    # Weight Progression
-    st.subheader("Weight Progression Over Time")
-    if not df.empty:
-        weight_trend = df.groupby('Date')['Weight'].mean()
-        st.bar_chart(weight_trend)
+    # Weight vs. Reps (Scatter Plot)
+    st.subheader("Weight vs. Reps")
+    fig = px.scatter(df, x='Reps', y='Weight', color='Exercise', 
+                     size='Total_volume', hover_data=['Date'], 
+                     title="Weight vs. Reps")
+    st.plotly_chart(fig, use_container_width=True)
 
-    # Total Volume by Exercise
-    st.subheader("Total Volume by Exercise")
-    if 'Total_volume' in df.columns:
-        volume_by_exercise = df.groupby('Exercise')['Total_volume'].sum().sort_values()
-        st.bar_chart(volume_by_exercise)
+    # Total Volume Over Time
+    st.subheader("Total Volume Over Time")
+    volume_trend = df.groupby('Date')['Total_volume'].sum().reset_index()
+    fig = px.line(volume_trend, x='Date', y='Total_volume', 
+                  title="Total Volume Progression", markers=True)
+    st.plotly_chart(fig, use_container_width=True)
+
+    # Distribution of Reps
+    st.subheader("Distribution of Reps")
+    fig = px.histogram(df, x='Reps', nbins=20, color='Muscle', 
+                       title="Reps Distribution")
+    st.plotly_chart(fig, use_container_width=True)
 
 
 def analytics():
@@ -122,21 +126,22 @@ def analytics():
     file_path = 'data/workout - log.csv'
     df = load_data(file_path)
 
-    if df is None:
+    if df is None or df.empty:
+        st.warning("No data available.")
         return
 
     # Display KPIs
     display_kpis(df)
 
     # Filter data
-    filtered_data = filter_data(df)
+    filtered_df = filter_data(df)
 
     # Display filtered data
-    st.markdown("### Filtered Workout Data")
-    st.dataframe(filtered_data)
-
+    with st.expander("Filtered Workout Data"):
+        st.dataframe(filtered_df.tail())
+        
     # Plot data
-    plot_data(filtered_data)
+    plot_data(filtered_df)
 
 
 if __name__ == "__main__":

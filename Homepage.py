@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-from datetime import datetime, date
+from datetime import date
 from dateutil.relativedelta import relativedelta
+import plotly.express as px
+import plotly.graph_objects as go
 
 
 st.set_page_config(
@@ -68,54 +68,44 @@ def display_kpis(df):
     col1.metric("Workouts This Week", weekly_count)
     col2.metric("Workouts This Month", monthly_count)
     col3.metric("Total Workout Days", total_records)
-
-
-def filter_data(df):
-    """
-    Add sidebar filters and return filtered data.
-    """
-    st.sidebar.header("Filters")
-    # Filter by year
-    unique_years = list(sorted(df['Date'].dt.year.unique()))
-    selected_year = st.sidebar.selectbox("Select Year", unique_years,index=unique_years.index(2024))
-
-    # Filter by muscle group
-    unique_muscles = list(df['Muscle'].unique())
-    selected_muscle = st.sidebar.selectbox("Select Muscle Group", unique_muscles)
-
-    # Filter by exercises
-    filtered_df = df[(df['Date'].dt.year == selected_year) & (df['Muscle'] == selected_muscle)]
     
-    selected_exercises = st.sidebar.multiselect("Select Exercises", filtered_df['Exercise'].unique(),
-                                                default=filtered_df['Exercise'].unique())
-    
-    return filtered_df[filtered_df['Exercise'].isin(selected_exercises)]
-
 
 def plot_data(df):
     """
-    Generate visualizations.
+    Generate advanced visualizations using Plotly.
     """
     st.markdown("### Visualizations")
-
+    
     # Exercise Frequency
-    st.subheader("Exercise Frequency")
-    fig, ax = plt.subplots()
-    sns.countplot(data=df, y="Exercise", order=df['Exercise'].value_counts().index, ax=ax)
-    ax.set_title("Frequency of Exercises")
-    st.pyplot(fig)
-
+    if not df.empty:
+        st.subheader("Exercise Frequency")
+        exercise_counts = df['Exercise'].value_counts().reset_index()
+        exercise_counts.columns = ['Exercise', 'Count']
+        fig = px.bar(exercise_counts, x='Count', y='Exercise', orientation='h',
+                     title="Frequency of Exercises", color='Count', text='Count')
+        st.plotly_chart(fig, use_container_width=True)
+    
     # Weight Progression
     st.subheader("Weight Progression Over Time")
     if not df.empty:
-        weight_trend = df.groupby('Date')['Weight'].mean()
-        st.line_chart(weight_trend)
-
-    # Total Volume by Exercise
-    st.subheader("Total Volume by Exercise")
-    if 'Total_volume' in df.columns:
-        volume_by_exercise = df.groupby('Exercise')['Total_volume'].sum().sort_values()
-        st.bar_chart(volume_by_exercise)
+        weight_trend = df.groupby('Date')['Weight'].sum().reset_index()
+        fig = px.line(weight_trend, x='Date', y='Weight', title="Weight Progression Over Time",
+                      markers=True, line_shape="spline")
+        st.plotly_chart(fig, use_container_width=True)
+    
+    # Heatmap of Workouts
+    st.subheader("Workout Frequency Heatmap")
+    df['Weekday'] = df['Date'].dt.day_name()
+    df['Week'] = df['Date'].dt.strftime('%U')
+    heatmap_data = df.groupby(['Weekday', 'Week']).size().unstack(fill_value=0)
+    fig = go.Figure(data=go.Heatmap(
+        z=heatmap_data.values,
+        x=heatmap_data.columns,
+        y=heatmap_data.index,
+        colorscale="Viridis"
+    ))
+    fig.update_layout(title="Workout Frequency Heatmap", xaxis_title="Week", yaxis_title="Day of Week")
+    st.plotly_chart(fig, use_container_width=True)
 
 
 
@@ -171,7 +161,6 @@ def homepage():
     # Display workout data
     with st.expander("Data Preview"):
         st.dataframe(df.head())
-
 
     # Plot data
     plot_data(df)
