@@ -91,28 +91,23 @@ def plot_data(df):
     st.subheader("Exercise Frequency")
     exercise_counts = df['Exercise'].value_counts().reset_index()
     exercise_counts.columns = ['Exercise', 'Count']
-    fig = px.bar(exercise_counts, x='Count', y='Exercise', orientation='h',
-                 title="Frequency of Exercises", color='Count', text='Count')
+    fig = px.bar(exercise_counts, x='Count', y='Exercise', orientation='h', title="Frequency of Exercises", color='Count', text='Count')
     st.plotly_chart(fig, use_container_width=True)
 
     # Weight vs. Reps (Scatter Plot)
     st.subheader("Weight vs. Reps")
-    fig = px.scatter(df, x='Reps', y='Weight', color='Exercise', 
-                     size='Total_volume', hover_data=['Date'], 
-                     title="Weight vs. Reps")
+    fig = px.scatter(df, x='Reps', y='Weight', color='Exercise', size='Total_volume', hover_data=['Date'], title="Weight vs. Reps")
     st.plotly_chart(fig, use_container_width=True)
 
     # Total Volume Over Time
     st.subheader("Total Volume Over Time")
     volume_trend = df.groupby('Date')['Total_volume'].sum().reset_index()
-    fig = px.line(volume_trend, x='Date', y='Total_volume', 
-                  title="Total Volume Progression", markers=True)
+    fig = px.line(volume_trend, x='Date', y='Total_volume', title="Total Volume Progression", markers=True)
     st.plotly_chart(fig, use_container_width=True)
 
     # Distribution of Reps
     st.subheader("Distribution of Reps")
-    fig = px.histogram(df, x='Reps', nbins=20, color='Muscle', 
-                       title="Reps Distribution")
+    fig = px.histogram(df, x='Reps', nbins=20, color='Muscle', title="Reps Distribution")
     st.plotly_chart(fig, use_container_width=True)
 
 

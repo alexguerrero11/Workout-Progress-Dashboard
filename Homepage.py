@@ -81,16 +81,14 @@ def plot_data(df):
         st.subheader("Exercise Frequency")
         exercise_counts = df['Exercise'].value_counts().reset_index()
         exercise_counts.columns = ['Exercise', 'Count']
-        fig = px.bar(exercise_counts, x='Count', y='Exercise', orientation='h',
-                     title="Frequency of Exercises", color='Count', text='Count')
+        fig = px.bar(exercise_counts, x='Count', y='Exercise', orientation='h', title="Frequency of Exercises", color='Count', text='Count')
         st.plotly_chart(fig, use_container_width=True)
     
     # Weight Progression
     st.subheader("Weight Progression Over Time")
     if not df.empty:
         weight_trend = df.groupby('Date')['Weight'].sum().reset_index()
-        fig = px.line(weight_trend, x='Date', y='Weight', title="Weight Progression Over Time",
-                      markers=True, line_shape="spline")
+        fig = px.line(weight_trend, x='Date', y='Weight', title="Weight Progression Over Time", markers=True, line_shape="spline")
         st.plotly_chart(fig, use_container_width=True)
     
     # Heatmap of Workouts
