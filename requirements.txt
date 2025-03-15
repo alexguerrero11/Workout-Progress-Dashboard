@@ -1,0 +1,7 @@
+streamlit
+pymysql
+sqlalchemy
+pandas
+matplotlib
+seaborn
+docker
