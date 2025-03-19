@@ -58,21 +58,6 @@ def plot_data(df):
         fig = px.line(weight_trend, x='Date', y='Weight', title="Weight Progression Over Time", markers=True, line_shape="spline")
         st.plotly_chart(fig, use_container_width=True)
     
-    # # Heatmap of Workouts
-    # st.subheader("Workout Frequency Heatmap")
-    # df['Weekday'] = df['Date'].dt.day_name()
-    # df['Week'] = df['Date'].dt.strftime('%U')
-    # heatmap_data = df.groupby(['Weekday', 'Week']).size().unstack(fill_value=0)
-    # fig = go.Figure(data=go.Heatmap(
-    #     z=heatmap_data.values,
-    #     x=heatmap_data.columns,
-    #     y=heatmap_data.index,
-    #     colorscale="Viridis"
-    # ))
-    # fig.update_layout(title="Workout Frequency Heatmap", xaxis_title="Week", yaxis_title="Day of Week")
-    # st.plotly_chart(fig, use_container_width=True)
-
-
 
 def homepage(df):
     

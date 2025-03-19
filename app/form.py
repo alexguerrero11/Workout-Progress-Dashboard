@@ -31,8 +31,8 @@ def display_form(df):
     for i in range(sets):
         st.markdown(f"#### Set {i+1}")
         cols = st.columns(4)
-        reps = cols[0].number_input(f"Reps (Set {i+1})", min_value=0, step=1, key=f"reps_{i}")
-        weight = cols[1].number_input(f"Weight (lbs) (Set {i+1})", min_value=0, step=1, key=f"weight_{i}")
+        reps = cols[0].number_input(f"Reps (Set {i+1})", min_value=i+1, step=1, key=f"reps_{i}")
+        weight = cols[1].number_input(f"Weight (lbs) (Set {i+1})", min_value=10, step=10, key=f"weight_{i}")
         duration = cols[2].number_input(f"Duration (seconds) (Set {i+1})", min_value=0, step=1, key=f"duration_{i}")
         note = cols[3].text_input(f"Note (Set {i+1})", key=f"note_{i}")
         set_data.append({"Set": i+1, "Reps": reps, "Weight": weight, "Duration": duration, "Note": note})

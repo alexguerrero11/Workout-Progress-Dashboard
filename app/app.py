@@ -4,11 +4,10 @@ import db
 import dashboard
 import form
 import analysis
-import analysis2
 import homepage
 
 st.sidebar.title("Workout Dashboard")
-menu = st.sidebar.radio("Menu", ["Homepage", "Add Workout", "Analysis","Pending Analysis"])
+menu = st.sidebar.radio("Menu", ["Homepage", "Add Workout", "Analysis"])
 
 # Connect to DB
 #conn = db.get_db_connection()
@@ -19,6 +18,7 @@ def load_data():
     try:
         df = pd.read_csv(FILE_PATH)
         df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
+        df["Total_volume"] = df["Reps"] * df["Weight"]
         return df
     except FileNotFoundError:
         st.error(f"File not found at {FILE_PATH}")
@@ -32,8 +32,6 @@ if menu == "Homepage":
 elif menu == "Add Workout":
     form.display_form(df)
 elif menu == "Analysis":
-    analysis.show_analysis(df)
-elif menu == "Pending Analysis":
-    analysis2.analytics(df)
+    analysis.analytics(df)
 
 #conn.close()
