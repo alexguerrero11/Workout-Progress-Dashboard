@@ -19,6 +19,7 @@ def load_data():
         df = pd.read_csv(FILE_PATH)
         df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
         df["Total_volume"] = df["Reps"] * df["Weight"]
+        df['Total_volume'] = pd.to_numeric(df['Total_volume'], errors='coerce').fillna(0)
         return df
     except FileNotFoundError:
         st.error(f"File not found at {FILE_PATH}")

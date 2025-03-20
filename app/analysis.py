@@ -13,12 +13,12 @@ def filter_data(df):
     filtered_df = df[(df['Date'] >= pd.Timestamp(start_date)) & (df['Date'] <= pd.Timestamp(end_date))]
     
     # Muscle Group
-    unique_muscles = df['Muscle'].unique()
+    unique_muscles = sorted(df['Muscle'].dropna().unique())
     selected_muscle = st.sidebar.selectbox("Select Muscle Group", options=unique_muscles)
     filtered_df = filtered_df[filtered_df['Muscle'] == selected_muscle]
 
     # Exercises
-    unique_exercises = filtered_df['Exercise'].unique()
+    unique_exercises = sorted(filtered_df['Exercise'].dropna().unique())
     selected_exercises = st.sidebar.multiselect("Select Exercises", unique_exercises, default=unique_exercises)
     filtered_df = filtered_df[filtered_df['Exercise'].isin(selected_exercises)]
 
